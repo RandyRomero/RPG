@@ -1,0 +1,112 @@
+/************************************ HEADER ************************************/
+
+.deutschland header li:nth-child(2) a {
+	background-color: white;
+	border-radius: 5px;
+	color: red;
+	text-decoration: none;
+}
+
+.everything header li:nth-child(3) a {
+	background-color: white;
+	border-radius: 5px;
+	color: red;
+	text-decoration: none;
+}
+
+.aboutme header li:nth-child(4) a {
+	background-color: white;
+	border-radius: 5px;
+	color: red;
+	text-decoration: none;
+}
+
+/************************************ MAIN ************************************/
+
+.photopage main {
+	background-attachment: fixed; /* to stick background img */
+	background-size: cover;
+	min-height: 84.8vh;
+}
+
+.deutschland main {
+	background-image: url(../image/heros/weingarten.jpg);
+	background-position: bottom;
+	background-size: cover;
+}
+
+.everything main {
+	background-image: url('../image/heros/london-sky.jpg');
+	background-position: center;
+}
+
+.aboutme main {
+	background-image: url('../image/heros/vine.jpg');
+	background-position: center;
+}
+
+.photopage main>.wrapper {
+	padding-top: 5vh;
+}
+
+.photopage .wrapper .margin.row {
+	height: 83vh;
+	width: 100%;
+}
+
+.photopage main .thumbnail {
+	background: none;
+	border: none;
+}
+
+.photopage main .thumbnail>img {
+	background: #242424;
+	padding: 10px;
+}
+
+.aboutme main .wrapper .row div {
+	border: 10px solid white;
+	background-color: #242424;
+	color: white;
+	font-family: "Oswald", sans-serif;
+	font-size: 25px;
+	width: 660px;
+	height: 660px;
+}
+
+.aboutme main .wrapper .row div:nth-of-type(1) {
+	background-image: url('../image/about me/mem.jpg');
+	background-size: cover;
+}
+
+.aboutme main .wrapper .row div:nth-of-type(2) {
+	float: right;
+}
+
+@media(max-width: 1600px) {
+	.aboutme main .wrapper .row>div {
+		height: 535px;
+		width: 535px;
+	}
+}
+
+@media(max-width: 1150px) {
+	.aboutme main .wrapper .row>div {
+		height: 435px;
+		font-size: 20px;
+		width: 435px; 
+	}
+}
+
+@media(max-width: 992px) {
+	.aboutme main .wrapper .row>div {
+		height: 330px;
+		font-size: 25px;
+		margin: 60px auto;
+		width: 660px;
+	}
+	
+	.aboutme main .wrapper .row>div:nth-of-type(2) {
+		float: none;
+	}
+}

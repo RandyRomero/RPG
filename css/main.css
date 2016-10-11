@@ -1,0 +1,266 @@
+html {
+	font-size: 16px;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding-top: 90px; /* to shift MAIN container below fixed header */
+	padding-bottom: 54px; /* same about fixed footer  */
+}
+
+.wrapper {
+	height: auto;
+	margin: 0 auto;
+	max-width: 1500px;
+	width: auto;
+}
+
+html, header, footer {
+	min-width: 500px;
+}
+
+/************************************ HEADER ************************************/
+
+header {
+	background-color: #242424;
+	border-bottom: 4px solid black;
+	border-top: none;
+	position: fixed; /* to fix header */
+	top: 0; /* to fix header */
+	width: 100%; /* to fit header that shrinks because of position: fixed */
+	z-index: 2;
+}
+
+header h1 {
+	float: left;
+	font-size: 48px;
+	margin: 0;
+	padding: 20px 0;
+}
+
+header h1 a {
+	color: white;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 2px;
+	margin: 0px;
+}
+
+header h1 a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+header ul {
+	float: right;
+	margin: 0;
+	padding: 35px 0;
+}
+
+header ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+header li a {
+	color: white;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 2px;
+	padding: 10px;
+}
+
+header li a:hover, header li a:active, header li a:focus {
+	background-color: white;
+	border-radius: 5px;
+	color: red;
+	text-decoration: none;
+}
+
+#main header li:first-child a {
+	background-color: white;
+	border-radius: 5px;
+	color: red;
+	text-decoration: none;
+}
+
+.clearer {
+	clear: both; /* crutch to fix float issues */
+}
+
+/************************************ MAIN ************************************/
+
+.quotation, .hero_image { /*adjusting divs' size with aspect ratio due to width of viewport */
+	height: 42.2vw;
+	width: 100%;
+}
+
+.hero_image {
+/*	background-image: url('http://placehold.it/1920x1080');*/
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hero_image:first-child {
+	background-image: url('../image/heros/ln-new-logo.jpg');	
+}
+
+.hero_image:nth-child(3) {
+	background-image: url('../image/heros/FH.jpg');
+	background-position: bottom;
+
+}
+
+.hero_image:nth-child(5) {
+	background-image: url('../image/heros/auto.jpg');
+	/*background-image: url('../image/weimgarten_field.jpg');*/
+	background-position: bottom;
+}
+
+.hero_image, .quotation {
+	/*max-height: 950px;*/
+}
+
+.quotation {
+	background-color: #242424;
+	display: table; /* to center div vertically */
+	margin: 0;
+	/*margin-top: -10px; /*get rid of strange gap */
+	/*position: absolute; /* to center div vertically */		
+}
+
+.quotation .middle {
+	display: table-cell; /* to center div vertically */
+	vertical-align: middle; /* to center div vertically */
+}
+
+.quotation .middle .inner {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 50%;
+}
+
+.quotation .inner p {
+	display: inline;
+	color: white;
+	font-size: 3vw;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+	white-space: normal;
+}
+
+/************************************ FOOTER ************************************/
+
+footer {
+	background-color: #242424;
+	font-family: 'Oswald', sans-serif;
+	width: 100%;
+	z-index: 2; /* to keep footer above main content */
+	position: fixed;
+	bottom: 0;
+	border-top: 4px solid black;
+}
+
+.inner_wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+footer p {
+	color: white;
+	float: right;
+	margin: 0;
+	padding: 17px 0;	
+}
+
+footer ul {
+	float: left;
+	margin: 0; 
+	padding: 10px 0;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 7px;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+	color: red;
+	text-decoration: none;
+}
+
+
+
+/************************************ MEDIA ************************************/
+
+@media (max-width: 1600px) {
+	.wrapper { 
+		max-width: 1100px;
+	}
+}
+
+@media (max-width: 1150px) {
+	.wrapper {
+		max-width: 900px;
+	}
+}
+
+@media(max-width: 950px) {
+	html {
+		font-size: 5px;
+	}
+	
+	body {
+		padding-top: 140px; /*to return body back because header doesn't fixed anymore */
+	} 
+	
+	/*header {
+		position: static; 
+	}*/
+	
+	header h1 {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		padding-bottom: 5px;
+		text-align: center;
+	}  
+	
+	header ul {
+		display: block;
+		float: none!important;
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 7px;
+		width: 350px;
+	}
+	
+	header li {
+		display: inline-block;
+	}
+	
+	.inner_wrapper {
+		margin: 0 20px;
+		width: auto;
+	}
+}
+
+@media(max-width: 500px) {
+	.hero_image, .quotation {
+		width: 500px;
+		height: 222px;
+	}
+	main .quotation .inner p {
+		font-size: 15px;
+	}
+}
