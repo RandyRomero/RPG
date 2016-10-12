@@ -31,6 +31,7 @@
 
 .deutschland main {
 	background-image: url(../image/heros/weingarten.jpg);
+	background-attachment: fixed;
 	background-position: bottom;
 	background-size: cover;
 }
