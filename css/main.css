@@ -255,10 +255,10 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-width: 500px) {
+@media(max-width: 320px) {
 	.hero_image, .quotation {
-		width: 500px;
-		height: 222px;
+		width: 320px;
+/*		height: 222px;*/
 	}
 	main .quotation .inner p {
 		font-size: 15px;
