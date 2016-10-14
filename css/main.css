@@ -260,7 +260,7 @@ footer a:hover, footer a:focus, footer a:active {
 @media(max-width: 460px) {
 	body {
 		padding-bottom: 40px;
-		padding-top: 99px;
+		padding-top: 81px;
 		/*made padding smaller because for mobile screens header and footer are smaller */
 	}
 	
@@ -270,7 +270,8 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 	
 	header ul {
-		padding-bottom: 20px;
+		padding-bottom: 10px;
+		padding-top: 3px;
 	}
 	
 	header ul li a {
