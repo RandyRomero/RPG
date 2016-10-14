@@ -310,7 +310,16 @@ footer a:hover, footer a:focus, footer a:active {
 
 /************************************ HEROS' SIZES ************************************/
 
-@media(max-height: 568px) {
+@media(max-height: 598px) { /*xperia z3*/
+	.hero_image {
+		height: 80.5vh;
+	}
+	.quotation {
+		height: 40vh;
+	}
+}
+
+@media(max-height: 568px) { /* iphone 5 */
 	.hero_image {
 		height: 79vh;
 	}
@@ -320,12 +329,10 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 
-
 @media(max-height: 533px) { /* galaxy S, S2, S3 mini */
 	.hero_image {
 		height: 78vh;
 	}
-	
 	.quotation {
 		height: 39vh;
 	}
@@ -335,7 +342,6 @@ footer a:hover, footer a:focus, footer a:active {
 	.hero_image {
 		height: 75vh;
 	}
-	
 	.quotation {
 		height: 37.5vh;
 	}
