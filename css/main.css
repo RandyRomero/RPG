@@ -249,6 +249,14 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
+/*
+@media(max-width: 500px) {
+	.quotation .inner p {
+		font-size: 15px;
+	}
+}
+*/
+
 @media(max-width: 460px) {
 	body {
 		padding-bottom: 40px;
@@ -282,6 +290,10 @@ footer a:hover, footer a:focus, footer a:active {
 		width: 75%; /* more space for text in quotation */
 	}
 	
+	.quotation .inner p {
+		font-size: 15px;
+	}
+	
 	footer {
 		font-size: 12px;
 	}
@@ -301,7 +313,7 @@ footer a:hover, footer a:focus, footer a:active {
 		width: 320px;
 /*		height: 222px;*/
 	}
-	main .quotation .inner p {
+	.quotation .inner p {
 		font-size: 15px;
 	}
 }
