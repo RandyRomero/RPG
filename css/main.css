@@ -278,8 +278,6 @@ footer a:hover, footer a:focus, footer a:active {
 		padding: 5px;
 	}
 	
-
-	
 	.quotation .middle .inner {
 		width: 75%; /* more space for text in quotation */
 	}
@@ -310,6 +308,28 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 /************************************ HEROS' SIZES ************************************/
+
+@media(max-height: 568px) {
+	.hero_image {
+		height: 76vh;
+	}
+	
+	.quotation {
+		height: 38vh;
+	}
+}
+
+
+
+@media(max-height: 533px) {
+	.hero_image {
+		height: 74vh;
+	}
+	
+	.quotation {
+		height: 37vh;
+	}
+}
 
 @media(max-height: 480px) {
 	.hero_image {
