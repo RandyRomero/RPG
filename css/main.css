@@ -275,9 +275,13 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 	
 	.quotation {
-		40vh;
-			
+		height: 40vh;
 	}
+	
+	.quotation .middle .inner {
+		width: 75%; /* more space for text in quotation */
+	}
+	
 	footer {
 		font-size: 12px;
 	}
