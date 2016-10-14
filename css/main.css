@@ -68,6 +68,7 @@ header ul li {
 header li a {
 	color: white;
 	font-family: 'Bangers', cursive;
+	font-size: 14px;
 	letter-spacing: 2px;
 	padding: 10px;
 }
@@ -217,7 +218,7 @@ footer a:hover, footer a:focus, footer a:active {
 
 @media(max-width: 950px) {
 	html {
-		font-size: 5px;
+/*		font-size: 5px; who know what for is it*/ 
 	}
 	
 	body {
@@ -254,6 +255,34 @@ footer a:hover, footer a:focus, footer a:active {
 		width: auto;
 	}
 }
+
+@media(max-width: 460px) {
+	header h1 {
+		font-size: 30px;
+		padding-top: 10px;
+	}
+	
+	header ul {
+		padding-bottom: 20px;
+	}
+	
+	header ul li a {
+		font-size: 10px;
+	}
+}
+
+@media(max-width: 350px) {
+	header ul {
+		margin: 0;
+	}
+}
+	
+@media(max-width: 350px) {
+	header ul {
+		margin: 0;
+	}
+}
+
 
 @media(max-width: 320px) {
 	.hero_image, .quotation {
