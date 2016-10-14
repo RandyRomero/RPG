@@ -312,38 +312,37 @@ footer a:hover, footer a:focus, footer a:active {
 
 @media(max-height: 598px) { /*xperia z3*/
 	.hero_image {
-		height: 80.5vh;
+		height: 482px;
 	}
 	.quotation {
-		height: 40vh;
+		height: 239px;
 	}
 }
 
 @media(max-height: 568px) { /* iphone 5 */
 	.hero_image {
-		height: 79vh;
+		height: 449px;
 	}
 	.quotation {
-		height: 39.5vh;
+		height: 224px;
 	}
 }
 
-
 @media(max-height: 533px) { /* galaxy S, S2, S3 mini */
 	.hero_image {
-		height: 78vh;
+		height: 416px;
 	}
 	.quotation {
-		height: 39vh;
+		height: 207px;
 	}
 }
 
 @media(max-height: 480px) { /*iphone 4*/
 	.hero_image {
-		height: 75vh;
+		height: 360px;
 	}
 	.quotation {
-		height: 37.5vh;
+		height: 180px;
 	}
 }
 
