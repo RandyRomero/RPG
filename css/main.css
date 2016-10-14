@@ -312,33 +312,32 @@ footer a:hover, footer a:focus, footer a:active {
 
 @media(max-height: 568px) {
 	.hero_image {
-		height: 76vh;
+		height: 79vh;
 	}
-	
 	.quotation {
-		height: 38vh;
+		height: 39.5vh;
 	}
 }
 
 
 
-@media(max-height: 533px) {
+@media(max-height: 533px) { /* galaxy S, S2, S3 mini */
 	.hero_image {
-		height: 74vh;
+		height: 78vh;
 	}
 	
 	.quotation {
-		height: 37vh;
+		height: 39vh;
 	}
 }
 
-@media(max-height: 480px) {
+@media(max-height: 480px) { /*iphone 4*/
 	.hero_image {
-		height: 71.1vh;
+		height: 75vh;
 	}
 	
 	.quotation {
-		height: 35.5vh;
+		height: 37.5vh;
 	}
 }
 
