@@ -251,7 +251,9 @@ footer a:hover, footer a:focus, footer a:active {
 
 @media(max-width: 460px) {
 	body {
-		padding: 40px 0; /*adjusting because of fixed header and footer */
+		padding-bottom: 40px;
+		padding-top: 99px;
+		/*made padding smaller because for mobile screens header and footer are smaller */
 	}
 	
 	header h1 {
@@ -269,7 +271,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 	
 	.hero_image {
-		height: 73vh;
+		height: 79vh;
 	}
 	
 	.quotation {
