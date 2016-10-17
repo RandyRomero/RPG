@@ -310,15 +310,40 @@ footer a:hover, footer a:focus, footer a:active {
 
 /************************************ HEROS' SIZES ************************************/
 
-@media(max-height: 695px) { /*iPhone 7 */
+@media(max-height: 966px) { /*iPhone 6 / 6 Plus */
 	.hero_image {
-		height: 577px;
+		height: 773px;
 	}
 	
 	.hero_image:nth-child(5) {
 		background-position: right;
 	}
 	
+	.quotation {
+		height: 350px;
+	}
+}
+
+
+@media(max-height: 800px) { /*iPhone 6 / 6 Plus */
+	.hero_image {
+		height: 623px;
+	}
+	
+	.hero_image:nth-child(5) {
+		background-position: right;
+	}
+	
+	.quotation {
+		height: 311px;
+	}
+}
+
+@media(max-height: 695px) { 
+	.hero_image {
+		height: 577px;
+	}
+
 	.quotation {
 		height: 289px;
 	}
