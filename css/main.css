@@ -310,13 +310,34 @@ footer a:hover, footer a:focus, footer a:active {
 
 /************************************ HEROS' SIZES ************************************/
 
-@media(max-height: 640px) {
+@media(max-height: 695px) { /*iPhone 7 */
 	.hero_image {
-		height: 522px;
+		height: 577px;
 	}
 	
 	.hero_image:nth-child(5) {
 		background-position: right;
+	}
+	
+	.quotation {
+		height: 289px;
+	}
+}
+
+
+@media(max-height: 667px) { /*iPhone 7 */
+	.hero_image {
+		height: 552px;
+	}
+	
+	.quotation {
+		height: 276px;
+	}
+}
+
+@media(max-height: 640px) {
+	.hero_image {
+		height: 522px;
 	}
 	
 	.quotation {
