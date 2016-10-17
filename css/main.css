@@ -310,7 +310,21 @@ footer a:hover, footer a:focus, footer a:active {
 
 /************************************ HEROS' SIZES ************************************/
 
-@media(max-height: 598px) { /*xperia z3*/
+@media(max-height: 640px) {
+	.hero_image {
+		height: 522px;
+	}
+	
+	.hero_image:nth-child(5) {
+		background-position: right;
+	}
+	
+	.quotation {
+		height: 261px;
+	}
+}
+
+@media(max-height: 600px) { /*xperia z3*/
 	.hero_image {
 		height: 482px;
 	}
