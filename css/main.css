@@ -310,13 +310,43 @@ footer a:hover, footer a:focus, footer a:active {
 
 /************************************ HEROS' SIZES ************************************/
 
-@media (max-height: 1024px) and (max-width: 768px) { /*Apple Ipad Mini */
+@media (max-height: 1366px) and (max-width: 1024px) { /* Apple iPad Pro */
 	.hero_image {
-		height: 835px;
+		height: 1230px;
 	}
 	
 	.hero_image:nth-child(5) {
 		background-position: right;
+	}
+	
+	.quotation {
+		height: 615px;
+	}
+}
+
+@media (max-height: 1366px) and (max-width: 768px) { /* Apple iPad Pro */
+	.hero_image {
+		height: 1190px;
+	}
+	
+	.quotation {
+		height: 595px;
+	}
+}
+
+@media (max-height: 1280px) and (max-width: 800px) { /* Samsung Galaxy Tab 3 10" */
+	.hero_image {
+		height: 1090px;
+	}
+	
+	.quotation {
+		height: 545px;
+	}
+}
+
+@media (max-height: 1024px) and (max-width: 768px) { /*Apple Ipad Mini */
+	.hero_image {
+		height: 835px;
 	}
 	
 	.quotation {
