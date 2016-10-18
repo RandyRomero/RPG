@@ -310,6 +310,8 @@ footer a:hover, footer a:focus, footer a:active {
 
 /************************************ HEROS' SIZES ************************************/
 
+/******** tablets *********/
+
 @media (max-height: 1366px) and (max-width: 1024px) { /* Apple iPad Pro */
 	.hero_image {
 		height: 1230px;
@@ -354,6 +356,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
+/******** smartphones ********/
 
 @media(max-height: 966px) and (max-width: 604px) { /* ASUS Nexus 7 v1 */
 	.hero_image {
@@ -455,4 +458,55 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 	
+@media(max-height: 320px) and (max-width: 480px) { /*iPhone 4 landscape */
 
+	body {
+		padding-bottom: 40px;
+		padding-top: 81px;
+		/*adjust because another header and footer size */
+	}
+	
+/** smaller header and footer, smaller font and bigger quotation width */	
+	header h1 {
+		font-size: 30px;
+		padding-top: 10px;
+	}
+	
+	header ul {
+		padding-bottom: 10px;
+		padding-top: 3px;
+	}
+	
+	header ul li a {
+		font-size: 10px;
+		padding: 5px;
+	}
+	
+	.quotation .middle .inner {
+		width: 75%; /* more space for text in quotation */
+	}
+	
+	.quotation .inner p {
+		font-size: 15px;
+	}
+	
+	footer {
+		font-size: 12px;
+	}
+	
+	footer ul {
+		padding: 3px 0;
+	}
+	
+	footer p {
+		padding: 10px 0;
+	}
+	
+/* heros and quos height */	
+	.hero_image {
+		height: 200px;
+	}
+	.quotation {
+		height: 200px;
+	}
+}
