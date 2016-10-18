@@ -310,7 +310,7 @@ footer a:hover, footer a:focus, footer a:active {
 
 /************************************ HEROS' SIZES ************************************/
 
-@media(max-height: 966px) and (max-width: 604px) { /*iPhone 6 / 6 Plus */
+@media(max-height: 966px) and (max-width: 604px) { /* ASUS Nexus 7 v1 */
 	.hero_image {
 		height: 773px;
 	}
@@ -325,7 +325,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 
-@media(max-height: 800px) and (max-width: 480px) {
+@media(max-height: 800px) and (max-width: 480px) { /* Amazon Kindle Fire HD 7 */
 	.hero_image {
 		height: 623px;
 	}
@@ -335,7 +335,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 736px) and (max-width: 414px) { 
+@media(max-height: 736px) and (max-width: 414px) { /* Apple iPhone 6 Plus, 6s Plus */
 	.hero_image {
 		height: 625px;
 	}
