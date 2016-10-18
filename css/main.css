@@ -310,13 +310,24 @@ footer a:hover, footer a:focus, footer a:active {
 
 /************************************ HEROS' SIZES ************************************/
 
-@media(max-height: 966px) and (max-width: 604px) { /* ASUS Nexus 7 v1 */
+@media (max-height: 1024px) and (max-width: 768px) { /*Apple Ipad Mini */
 	.hero_image {
-		height: 773px;
+		height: 835px;
 	}
 	
 	.hero_image:nth-child(5) {
 		background-position: right;
+	}
+	
+	.quotation {
+		height: 417px;
+	}
+}
+
+
+@media(max-height: 966px) and (max-width: 604px) { /* ASUS Nexus 7 v1 */
+	.hero_image {
+		height: 773px;
 	}
 	
 	.quotation {
