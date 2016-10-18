@@ -312,7 +312,7 @@ footer a:hover, footer a:focus, footer a:active {
 
 /******** tablets *********/
 
-@media (max-height: 1366px) and (max-width: 1024px) { /* Apple iPad Pro */
+@media (max-height: 1366px) and (max-width: 1024px) { /* Apple iPad Pro portrait */
 	.hero_image {
 		height: 1230px;
 	}
@@ -326,7 +326,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media (max-height: 1366px) and (max-width: 768px) { /* Apple iPad Pro */
+@media (max-height: 1366px) and (max-width: 768px) { /* Apple iPad Pro portrait */
 	.hero_image {
 		height: 1190px;
 	}
@@ -336,7 +336,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media (max-height: 1280px) and (max-width: 800px) { /* Samsung Galaxy Tab 3 10" */
+@media (max-height: 1280px) and (max-width: 800px) { /* Samsung Galaxy Tab 3 10" portrait */
 	.hero_image {
 		height: 1090px;
 	}
@@ -346,7 +346,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media (max-height: 1024px) and (max-width: 768px) { /*Apple Ipad Mini */
+@media (max-height: 1024px) and (max-width: 768px) { /*Apple Ipad Mini portrait */
 	.hero_image {
 		height: 835px;
 	}
@@ -358,7 +358,7 @@ footer a:hover, footer a:focus, footer a:active {
 
 /******** smartphones ********/
 
-@media(max-height: 966px) and (max-width: 604px) { /* ASUS Nexus 7 v1 */
+@media(max-height: 966px) and (max-width: 604px) { /* ASUS Nexus 7 v1 portrait */
 	.hero_image {
 		height: 773px;
 	}
@@ -369,7 +369,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 
-@media(max-height: 800px) and (max-width: 480px) { /* Amazon Kindle Fire HD 7 */
+@media(max-height: 800px) and (max-width: 480px) { /* Amazon Kindle Fire HD 7 portrait */
 	.hero_image {
 		height: 623px;
 	}
@@ -379,7 +379,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 736px) and (max-width: 414px) { /* Apple iPhone 6 Plus, 6s Plus */
+@media(max-height: 736px) and (max-width: 414px) { /* Apple iPhone 6 Plus, 6s Plus portrait */
 	.hero_image {
 		height: 625px;
 	}
@@ -390,7 +390,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 
-@media(max-height: 695px) and (max-width: 412px) { 
+@media(max-height: 695px) and (max-width: 412px) /* portrait */ { 
 	.hero_image {
 		height: 577px;
 	}
@@ -401,7 +401,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 
-@media(max-height: 667px) and (max-width: 375px) { /*iPhone 6, 7 */
+@media(max-height: 667px) and (max-width: 375px) { /*iPhone 6, 7 portrait */
 	.hero_image {
 		height: 552px;
 	}
@@ -411,7 +411,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 640px) and (max-width: 400px) { /*Galaxy S6, S7 */
+@media(max-height: 640px) and (max-width: 400px) { /*Galaxy S6, S7 portrait */
 	.hero_image {
 		height: 522px;
 	}
@@ -421,7 +421,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 600px) and (max-width: 360px) { /*xperia z3*/
+@media(max-height: 600px) and (max-width: 360px) { /*xperia z3 portrait */
 	.hero_image {
 		height: 482px;
 	}
@@ -430,7 +430,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 568px) and (max-width: 320px) { /* iphone 5 */
+@media(max-height: 568px) and (max-width: 320px) { /* iphone 5 portrait */
 	.hero_image {
 		height: 449px;
 	}
@@ -439,7 +439,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 533px) and (max-width: 320px) { /* galaxy S, S2, S3 mini */
+@media(max-height: 533px) and (max-width: 320px) { /* galaxy S, S2, S3 mini portrait */
 	.hero_image {
 		height: 416px;
 	}
@@ -448,7 +448,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 480px) and (max-width: 390px) { /*iphone 4*/
+@media(max-height: 480px) and (max-width: 390px) { /*iphone 4 portrait */
 	.hero_image {
 		height: 360px;
 	}
