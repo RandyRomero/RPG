@@ -358,7 +358,7 @@ footer a:hover, footer a:focus, footer a:active {
 
 /******** smartphones ********/
 
-@media(max-height: 966px) and (max-width: 604px) { /* ASUS Nexus 7 v1 portrait */
+@media(max-height: 966px) and (max-width: 604px) and (orientation: portrait) { /* ASUS Nexus 7 v1 portrait */
 	.hero_image {
 		height: 773px;
 	}
@@ -369,7 +369,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 
-@media(max-height: 800px) and (max-width: 480px) { /* Amazon Kindle Fire HD 7 portrait */
+@media(max-height: 800px) and (max-width: 480px) and (orientation: portrait) { /* Amazon Kindle Fire HD 7 portrait */
 	.hero_image {
 		height: 623px;
 	}
@@ -416,8 +416,9 @@ footer a:hover, footer a:focus, footer a:active {
 		padding: 3px 0;
 	}
 	
-	footer p {
-		
+	footer p {		
+	}
+	
 }
 
 @media(max-height: 736px) and (max-width: 414px) { /* Apple iPhone 6 Plus, 6s Plus portrait */
