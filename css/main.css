@@ -459,8 +459,6 @@ footer a:hover, footer a:focus, footer a:active {
 
 	
 @media(max-height: 320px) and (max-width: 480px) { /*iPhone 4 landscape */
-
-padding: 10px 0;
 	
 /* heros and quos height */	
 	.hero_image {
