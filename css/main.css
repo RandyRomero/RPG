@@ -430,6 +430,13 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
+@media(max-height: 320px) and (max-width: 568px) and (orientation: landscape) { / /* landscape up to height 320 */
+	
+	.hero_image, quotation {
+		height: 200px;
+	}
+}
+
 @media(max-height: 568px) and (max-width: 320px) { /* iphone 5 portrait */
 	.hero_image {
 		height: 449px;
@@ -448,7 +455,8 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 480px) and (max-width: 390px) { /*iphone 4 portrait */
+
+@media(max-height: 480px) and (max-width: 320px) and (orientation: portrait) { /*iphone 4 portrait */
 	.hero_image {
 		height: 360px;
 	}
@@ -457,9 +465,3 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 320px) and (max-width: 480px) { /*iPhone 4 landscape */
-	
-	.hero_image, quotation {
-		height: 200px;
-	}
-}
