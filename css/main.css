@@ -411,19 +411,19 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 640px) and (max-width: 400px) { /*Galaxy S6, S7 portrait */
+@media(max-height: 400px) and (max-width: 640px) and (orientation: landscape) { /* landscape for 600 and 640px height */
+	.hero_image, .quotation {
+		height: 240px;
+	}
+}
+
+@media(max-height: 640px) and (max-width: 400px) and (orientation: portrait) { /*Galaxy S6, S7 portrait */
 	.hero_image {
 		height: 522px;
 	}
 	
 	.quotation {
 		height: 261px;
-	}
-}
-
-@media(max-height: 360px) and (max-width: 600px) and (orientation: landscape) { /* landscape up to height of 360px */
-	.hero_image, .quotation {
-		height: 240px;
 	}
 }
 
