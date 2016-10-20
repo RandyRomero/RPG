@@ -400,8 +400,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-
-@media(max-height: 667px) and (max-width: 375px) { /*iPhone 6, 7 portrait */
+@media(max-height: 667px) and (max-width: 375px) and (orientation: portrait) { /*iPhone 6, 7 portrait */
 	.hero_image {
 		height: 552px;
 	}
@@ -411,7 +410,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 400px) and (max-width: 640px) and (orientation: landscape) { /* landscape for 600 and 640px height */
+@media(max-height: 400px) and (max-width: 640px) and (orientation: landscape) { /* landscape for 360 and 400px height */
 	.hero_image, .quotation {
 		height: 240px;
 	}
