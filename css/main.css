@@ -400,6 +400,12 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
+@media(max-height: 375px) and (max-width: 667px) and (orientation: landscape) {
+	.hero_image, .quotation {
+		height: 255px;
+	}
+}
+
 @media(max-height: 667px) and (max-width: 375px) and (orientation: portrait) { /*iPhone 6, 7 portrait */
 	.hero_image {
 		height: 552px;
