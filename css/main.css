@@ -457,10 +457,8 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-	
 @media(max-height: 320px) and (max-width: 480px) { /*iPhone 4 landscape */
 	
-/* heros and quos height */	
 	.hero_image, quotation {
 		height: 200px;
 	}
