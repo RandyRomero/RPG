@@ -430,14 +430,14 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 320px) and (max-width: 568px) and (orientation: landscape) { / /* landscape up to height 320 */
+@media(max-height: 320px) and (max-width: 568px) and (orientation: landscape) { /* landscape up to height 320 */
 	
-	.hero_image, quotation {
+	.hero_image, .quotation {
 		height: 200px;
 	}
 }
 
-@media(max-height: 568px) and (max-width: 320px) { /* iphone 5 portrait */
+@media(max-height: 568px) and (max-width: 320px) and (orientation: portrait) { /* iphone 5 portrait */
 	.hero_image {
 		height: 449px;
 	}
@@ -446,7 +446,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 533px) and (max-width: 320px) { /* galaxy S, S2, S3 mini portrait */
+@media(max-height: 533px) and (max-width: 320px) and (orientation: portrait) { /* galaxy S, S2, S3 mini portrait */
 	.hero_image {
 		height: 416px;
 	}
