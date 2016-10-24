@@ -378,7 +378,13 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
+/**** tablets-landscape-rules ****/
 
+@media(max-height: 480px) and (max-width: 800px) and (orientation: landscape) {
+	.hero_image, .quotation {
+		height: 360px;
+	}
+}
 
 /****************** hero and quotation divs' height - smartphones ***************/
 
