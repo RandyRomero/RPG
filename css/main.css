@@ -257,7 +257,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 */
 
-@media screen and (max-width: 460px), screen and (max-height: 800px) {
+@media(max-width: 800px), (max-height: 480px) {
 	body {
 		padding-bottom: 40px;
 		padding-top: 81px;
