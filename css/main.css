@@ -377,7 +377,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-/****************** smartphones ***************/
+/****************** hero and quotation divs' height - smartphones ***************/
 
 @media(max-height: 414px) and (max-width: 736px) and (orientation: landscape) /* up to 414px heightS landscape  */ {
 	.hero_image, .quotation {
