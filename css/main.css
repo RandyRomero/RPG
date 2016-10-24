@@ -312,7 +312,7 @@ footer a:hover, footer a:focus, footer a:active {
 
 /****************** hero and quotation divs' height - tablets ***************/
 
-/**** mobile-potrait-rules ***/
+/**** mobile-potrait-rules ****/
 
 @media (max-height: 1366px) and (max-width: 1024px) and (orientation: portrait) { /* Apple iPad Pro portrait */
 	.hero_image {
@@ -368,14 +368,13 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-
 @media(max-height: 800px) and (max-width: 480px) and (orientation: portrait) { /* Amazon Kindle Fire HD 7 portrait */
 	.hero_image {
-		height: 623px;
+		height: 683px;
 	}
 	
 	.quotation {
-		height: 311px;
+		height: 341px;
 	}
 }
 
