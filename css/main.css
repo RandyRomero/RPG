@@ -310,7 +310,9 @@ footer a:hover, footer a:focus, footer a:active {
 
 /************************************ HEROS' SIZES ************************************/
 
-/******** tablets *********/
+/****************** hero and quotation divs' height - tablets ***************/
+
+/**** mobile-potrait-rules ***/
 
 @media (max-height: 1366px) and (max-width: 1024px) and (orientation: portrait) { /* Apple iPad Pro portrait */
 	.hero_image {
