@@ -111,3 +111,23 @@
 		float: none;
 	}
 }
+
+/**************** UNDER CONCTRACTION ***************/
+
+#under_const main {
+    display: table;
+    height: 500px;
+    width: 100%;
+}
+
+#under_const .middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#under_const .middle .inner {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+}
