@@ -265,13 +265,12 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 	
 	header h1 {
+		padding: 10px;
 		font-size: 30px;
-		padding-top: 10px;
 	}
 	
 	header ul {
-		padding-bottom: 10px;
-		padding-top: 3px;
+		padding: 16.5px;
 	}
 	
 	header ul li a {
@@ -299,6 +298,17 @@ footer a:hover, footer a:focus, footer a:active {
 		padding: 10px 0;
 	}
 	
+}
+
+@media(max-width: 600px) {
+	header h1 {
+		padding-top: 10px;
+	}
+	
+	header ul {
+		padding-bottom: 10px;
+		padding-top: 3px;
+	}
 }
 
 @media(max-width: 320px) {
