@@ -250,6 +250,10 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 @media(max-width: 950px) and (min-width: 800px) {
+	#main {
+		padding-top: 130px;
+	}
+	
 	header ul {
 		padding-bottom: 25px;
 	}
