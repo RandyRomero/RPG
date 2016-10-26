@@ -250,7 +250,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 @media(max-width: 950px) and (min-width: 800px) {
-	#main {
+	#main { /* offset from top of the page(body) because of fixed header */
 		padding-top: 130px;
 	}
 	
