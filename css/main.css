@@ -94,7 +94,7 @@ header li a:hover, header li a:active, header li a:focus {
 /************************************ MAIN ************************************/
 
 .quotation, .hero_image { /*adjusting divs' size with aspect ratio due to width of viewport */
-	height: 42.2vw;
+	height: 85vh; /* was 42.2vw */
 	width: 100%;
 }
 
