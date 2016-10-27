@@ -217,7 +217,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-width: 950px) and (min-width: 801px), (max-width: 600px) { /* please fix it somehow */
+@media(max-width: 950px) and (min-width: 801px), (max-width: 603px) { /* please fix it somehow */
 	body {
 		padding-top: 140px; /* because header is fixed */ 
 	} 	
@@ -302,7 +302,7 @@ footer a:hover, footer a:focus, footer a:active {
 	
 }
 
-@media(max-width: 600px) {
+@media(max-width: 603px) {
 	header h1 {
 		padding-top: 10px;
 	}
