@@ -169,7 +169,7 @@ footer {
 
 .inner_wrapper {
 	margin: 0 auto;
-	width: 100%;
+	width: auto;
 }
 
 footer p {
@@ -217,6 +217,12 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
+@media(max-width: 950px) {
+	.inner_wrapper {
+		margin: 0 20px; /* to keep contant of footer inside footer */
+	}
+}
+
 @media(max-width: 950px) and (min-width: 801px), (max-width: 603px) { 
 	body {
 		padding-top: 140px; /* because header is fixed */ 
@@ -242,11 +248,6 @@ footer a:hover, footer a:focus, footer a:active {
 	header li {
 		display: inline-block;
 	}
-	
-	.inner_wrapper {
-		margin: 0 20px;
-		width: auto;
-	}
 }
 
 @media(max-width: 950px) and (min-width: 800px) {
@@ -262,7 +263,7 @@ footer a:hover, footer a:focus, footer a:active {
 @media(max-width: 800px) and (min-width: 603px) {
 	body {
 		padding-top: 57px;
-		/*made padding smaller because for mobile screens header and footer are smaller */
+		/* remove the gap between header and main div */
 	}
 }
 
