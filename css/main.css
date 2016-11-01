@@ -309,7 +309,7 @@ footer a:hover, footer a:focus, footer a:active {
 	
 }
 
-@media(max-width: 597px) {
+@media(max-width: 597px) { /* set body and elements of header paddings for width < 597px */
 	body {
 		padding-top: 81px;
 	}
