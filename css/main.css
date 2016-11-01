@@ -404,7 +404,7 @@ footer a:hover, footer a:focus, footer a:active {
 
 @media(max-height: 480px) and (max-width: 800px) and (orientation: landscape) {
 	.hero_image, .quotation {
-		height: 360px;
+		height: 385px;
 	}
 }
 
