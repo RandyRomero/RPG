@@ -512,7 +512,7 @@ footer a:hover, footer a:focus, footer a:active {
 
 @media(max-height: 340px) and (max-width: 640px) and (orientation: landscape) { /* landscape for Xiaomi Redmi Note 3 Pro */
 	.hero_image, .quotation {
-		height: 220px;
+		height: 245px;
 	}	
 }
 
