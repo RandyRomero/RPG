@@ -223,7 +223,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-width: 950px) and (min-width: 801px), (max-width: 603px) { 
+@media(max-width: 950px) and (min-width: 801px), (max-width: 597px) { 
 	body {
 		padding-top: 140px; /* because header is fixed */ 
 	} 	
@@ -250,7 +250,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-width: 950px) and (min-width: 800px) {
+@media(max-width: 950px) and (min-width: 801px) {
 	#main { /* offset from top of the page(body) because of fixed header */
 		padding-top: 130px;
 	}
@@ -260,7 +260,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-width: 800px) and (min-width: 603px) {
+@media(max-width: 800px) and (min-width: 597px) {
 	body {
 		padding-top: 57px;
 		/* remove the gap between header and main div */
@@ -270,6 +270,7 @@ footer a:hover, footer a:focus, footer a:active {
 @media(max-width: 800px), (max-height: 480px) {
 	body {
 		padding-bottom: 40px;
+		padding-top: 57px;
 	}
 	
 	header h1 {
@@ -308,7 +309,7 @@ footer a:hover, footer a:focus, footer a:active {
 	
 }
 
-@media(max-width: 603px) {
+@media(max-width: 597px) {
 	body {
 		padding-top: 81px;
 	}
