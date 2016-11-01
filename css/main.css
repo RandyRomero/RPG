@@ -500,7 +500,7 @@ footer a:hover, footer a:focus, footer a:active {
 
 @media(max-height: 375px) and (max-width: 667px) and (orientation: landscape) { /* iPhone 6, 7 landscape */
 	.hero_image, .quotation {
-		height: 255px;
+		height: 280px;
 	}
 }
 
