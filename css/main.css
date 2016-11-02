@@ -392,11 +392,11 @@ footer a:hover, footer a:focus, footer a:active {
 
 @media(max-height: 966px) and (max-width: 604px) and (orientation: portrait) { /* ASUS Nexus 7 v1 portrait */
 	.hero_image {
-		height: 773px;
+		height: 776px;
 	}
 	
 	.quotation {
-		height: 386px;
+		height: 388px;
 	}
 }
 
