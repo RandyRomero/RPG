@@ -250,8 +250,18 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
+@media(min-height: 950px) and (orientation: portrait) {
+	body {
+		padding-top: 132px;	
+	}
+	
+	header ul {
+		padding-bottom: 23px;
+	}
+}
+
 @media(max-width: 950px) and (min-width: 801px) {
-	#main { /* offset from top of the page(body) because of fixed header */
+	body { /* offset from top of the page(body) because of fixed header */
 		padding-top: 130px;
 	}
 	
