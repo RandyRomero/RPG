@@ -260,7 +260,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-width: 800px) and (min-width: 597px) {
+@media(max-width: 800px) and (min-width: 597px) and (orientation: landscape) {
 	body {
 		padding-top: 57px;
 		/* remove the gap between header and main div */
