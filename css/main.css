@@ -94,7 +94,7 @@ header li a:hover, header li a:active, header li a:focus {
 /************************************ MAIN ************************************/
 
 .quotation, .hero_image { /*adjusting divs' size with aspect ratio due to width of viewport */
-	height: 85vh; /* was 42.2vw */
+	height: 85.5vh; /* was 42.2vw */
 	width: 100%;
 }
 
@@ -341,6 +341,25 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 /************************************ HEROS' SIZES ************************************/
+/************ Full HD+ **********/
+
+@media(min-height: 1050px) {
+	.hero_image, .quotation {
+		height: 87vh;
+	}
+}
+
+@media(min-height: 1150px) {
+	.hero_image, .quotation {
+		height: 89vh;
+	}
+}
+
+@media(min-height: 1350px) {
+	.hero_image, .quotation {
+		height: 91vh;
+	}
+}
 
 /****************** hero and quotation divs' height - tablets ***************/
 
