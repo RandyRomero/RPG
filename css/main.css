@@ -147,7 +147,7 @@ header li a:hover, header li a:active, header li a:focus {
 .quotation .inner p {
 	display: inline;
 	color: white;
-	font-size: 3vw;
+/*	font-size: 3vw;*/
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 2px;
 	white-space: normal;
@@ -339,28 +339,30 @@ footer a:hover, footer a:focus, footer a:active {
 
 /************************************ FONT-SIZES ************************************/
 
+/*
 @media(max-width: 800px) {
 	.quotation .inner p {
 		font-size: 24px;
 	}
 }
-
+*/
 @media(max-width: 700px) {
 	.quotation .inner p {
-		font-size: 19px;
+		font-size: 4vw;
 	}
 }
 
 @media(max-width: 600px) {
 	.quotation .inner p {
-		font-size: 16px;
+		font-size: 4vw;
 	}
 }
 
 
+
 @media(max-width: 500px) {
 	.quotation .inner p {
-		font-size: 15px;
+		font-size: 4vw;
 	}
 }
 
