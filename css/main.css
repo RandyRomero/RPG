@@ -340,6 +340,12 @@ footer a:hover, footer a:focus, footer a:active {
 /************************************ HEROS' SIZES ************************************/
 /************ PC **********/
 
+@media(max-height: 729px) {
+	.hero_image, .quotation {
+		height: 80vh;
+	}
+}
+
 @media(min-height: 730px) {
     .hero_image, .quotation {
         height: 82vh;
