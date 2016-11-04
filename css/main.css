@@ -354,7 +354,7 @@ footer a:hover, footer a:focus, footer a:active {
 
 @media(min-height: 850px) {
 	.hero_image, .quotation {
-		height: 85vh;
+		height: 85.4vh;
 	}
 }
 
