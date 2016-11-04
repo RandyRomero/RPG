@@ -94,7 +94,6 @@ header li a:hover, header li a:active, header li a:focus {
 /************************************ MAIN ************************************/
 
 .quotation, .hero_image { /*adjusting divs' size with aspect ratio due to width of viewport */
-	height: 85.5vh; /* was 42.2vw */
 	width: 100%;
 }
 
@@ -301,9 +300,7 @@ footer a:hover, footer a:focus, footer a:active {
 		width: 75%; /* more space for text in quotation */
 	}
 	
-	.quotation .inner p {
-		font-size: 15px;
-	}
+
 	
 	footer {
 		font-size: 12px;
@@ -340,8 +337,48 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
+/************************************ FONT-SIZES ************************************/
+
+@media(max-width: 800px) {
+	.quotation .inner p {
+		font-size: 24px;
+	}
+}
+
+@media(max-width: 700px) {
+	.quotation .inner p {
+		font-size: 19px;
+	}
+}
+
+@media(max-width: 600px) {
+	.quotation .inner p {
+		font-size: 16px;
+	}
+}
+
+
+@media(max-width: 500px) {
+	.quotation .inner p {
+		font-size: 15px;
+	}
+}
+
+
 /************************************ HEROS' SIZES ************************************/
-/************ Full HD+ **********/
+/************ PC **********/
+
+@media(min-height: 730px) {
+    .hero_image, .quotation {
+        height: 82vh;
+    }
+}
+
+@media(min-height: 850px) {
+	.hero_image, .quotation {
+		height: 85vh;
+	}
+}
 
 @media(min-height: 1050px) {
 	.hero_image, .quotation {
