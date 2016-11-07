@@ -140,7 +140,7 @@ header li a:hover, header li a:active, header li a:focus {
 	margin-right: auto;
 	text-align: center;
 	width: 50%;
-	max-width: 500px;
+    max-width: 952px;
 }
 
 .quotation .inner p {
@@ -278,7 +278,7 @@ footer a:hover, footer a:focus, footer a:active {
 @media(orientation: portrait) {
 	.quotation .middle .inner {
 		width: 75%; /* more space for text in quotation */
-		max-width: 500px;
+		max-width: 952px;
 	}
 }
 
@@ -304,7 +304,7 @@ footer a:hover, footer a:focus, footer a:active {
 	
 	.quotation .middle .inner {
 		width: 75%; /* more space for text in quotation */
-		max-width: 500px;
+		max-width: 952px;
 	}
 	
 	footer {
