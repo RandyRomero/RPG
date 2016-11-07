@@ -147,7 +147,7 @@ header li a:hover, header li a:active, header li a:focus {
 .quotation .inner p {
 	display: inline;
 	color: white;
-/*	font-size: 3vw;*/
+	font-size: 3.5vw;
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 2px;
 	white-space: normal;
@@ -300,8 +300,6 @@ footer a:hover, footer a:focus, footer a:active {
 		width: 75%; /* more space for text in quotation */
 	}
 	
-
-	
 	footer {
 		font-size: 12px;
 	}
@@ -381,7 +379,7 @@ footer a:hover, footer a:focus, footer a:active {
 /**** tablets-potrait-rules ****/
 
 @media (max-height: 1366px) and (max-width: 1024px) and (orientation: portrait) { /* Apple iPad Pro portrait */
-	.quotation p {
+	.quotation .inner p {
 		font-size: 4.5vw;
 	}
 	
@@ -467,7 +465,7 @@ footer a:hover, footer a:focus, footer a:active {
 /**** mobile-portrait-rules ****/
 
 @media(max-height: 736px) and (max-width: 414px) and (orientation: portrait) { /* Apple iPhone 6 Plus, 6s Plus portrait */
-	.quotation p {
+	.quotation .inner p {
 		font-size: 4.5vw;
 	}
 	
@@ -552,7 +550,7 @@ footer a:hover, footer a:focus, footer a:active {
 /**** mobile-landscape-rules ****/
 
 @media(max-height: 414px) and (max-width: 736px) and (orientation: landscape) /* up to 414px heightS landscape  */ {
-	.quotation p {
+	.quotation .inner p {
 		font-size: 3.5vw;
 	}
 	
