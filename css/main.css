@@ -127,9 +127,7 @@ header li a:hover, header li a:active, header li a:focus {
 .quotation {
 	background-color: #242424;
 	display: table; /* to center div vertically */
-	margin: 0;
-	/*margin-top: -10px; /*get rid of strange gap */
-	/*position: absolute; /* to center div vertically */		
+	margin: 0;		
 }
 
 .quotation .middle {
@@ -142,6 +140,7 @@ header li a:hover, header li a:active, header li a:focus {
 	margin-right: auto;
 	text-align: center;
 	width: 50%;
+	max-width: 500px;
 }
 
 .quotation .inner p {
@@ -276,6 +275,13 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
+@media(orientation: portrait) {
+	.quotation .middle .inner {
+		width: 75%; /* more space for text in quotation */
+		max-width: 500px;
+	}
+}
+
 @media(max-width: 800px) and (orientation: landscape), (max-width: 600px) and (orientation: portrait), (max-height: 480px) {
 	body {
 		padding-bottom: 40px;
@@ -298,6 +304,7 @@ footer a:hover, footer a:focus, footer a:active {
 	
 	.quotation .middle .inner {
 		width: 75%; /* more space for text in quotation */
+		max-width: 500px;
 	}
 	
 	footer {
