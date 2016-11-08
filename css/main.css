@@ -391,7 +391,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 	
 	.hero_image {
-		height: 1190px;
+		height: 1180px;
 	}
 	
 	.hero_image:nth-child(5) {
@@ -399,17 +399,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 	
 	.quotation {
-		height: 615px;
-	}
-}
-
-@media (max-height: 1366px) and (max-width: 768px) and (orientation: portrait) { /* Microsoft Surface */
-	.hero_image {
-		height: 1190px;
-	}
-	
-	.quotation {
-		height: 595px;
+		height: 590px;
 	}
 }
 
