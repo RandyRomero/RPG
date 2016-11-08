@@ -544,9 +544,9 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 533px) and (max-width: 320px) and (orientation: portrait) { /* galaxy S, S2, S3 mini portrait */
+@media(max-height: 533px) and (max-width: 360px) and (orientation: portrait) { /* galaxy S, S2, S3 mini portrait */
 	.hero_image {
-		height: 416px;
+		height: 412px;
 	}
 	.quotation {
 		height: 207px;
