@@ -549,6 +549,15 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
+@media(max-height: 524px) and (max-width: 360px) and (orientation: portrait) { /* LG G5 Chrome portrait */
+	.hero_image {
+		height: 405px;
+	}
+	.quotation {
+		height: 202px;
+	}
+}
+
 
 @media(max-height: 480px) and (max-width: 320px) and (orientation: portrait) { /*iphone 4 portrait */
 	.hero_image {
