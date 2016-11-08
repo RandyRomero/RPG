@@ -517,7 +517,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 600px) and (max-width: 360px) and (orientation: portrait) { /*xperia z3 portrait */
+@media(max-height: 600px) and (max-width: 360px) and (orientation: portrait) { /* xperia z3 portrait */
 	.hero_image {
 		height: 482px;
 	}
@@ -526,7 +526,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 568px) and (max-width: 320px) and (orientation: portrait) { /* iphone 5 portrait */
+@media(max-height: 568px) and (max-width: 360px) and (orientation: portrait) { /* iphone 5 portrait;   Xiaomi Redmi Note 3 Pro with navbar portrait */ 
 	.hero_image {
 		height: 449px;
 	}
