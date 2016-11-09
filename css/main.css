@@ -554,13 +554,9 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 
-@media(max-height: 460px) and (max-width: 320px) and (orientation: portrait) { /*iphone 4 portrait */
-	.hero_image {
-		height: 360px;
-	}
-	.quotation {
-		height: 180px;
-	}
+@media(max-height: 460px) and (max-width: 320px) and (orientation: portrait) { /*iphone 4 chrome portrait */
+	.hero_image {height: 340px;}
+	.quotation {height: 170px;}
 }
 
 @media(max-height: 440px) and (max-width: 320px) and (orientation: portrait) { /* iphone 4 safari when scrolling*/ 
