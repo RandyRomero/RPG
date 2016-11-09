@@ -554,7 +554,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 
-@media(max-height: 480px) and (max-width: 320px) and (orientation: portrait) { /*iphone 4 portrait */
+@media(max-height: 460px) and (max-width: 320px) and (orientation: portrait) { /*iphone 4 portrait */
 	.hero_image {
 		height: 360px;
 	}
@@ -563,12 +563,12 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }
 
-@media(max-height: 440px) and (max-width: 320px) and (orientation: portrait) {
+@media(max-height: 440px) and (max-width: 320px) and (orientation: portrait) { /* iphone 4 safari when scrolling*/ 
 	.hero_image{height: 320px}
 	.quotation{height: 160px}
 }
 
-@media(max-height: 372px) and (max-width: 320px) and (orientation: portrait) { /* iphone 4 browser size portrait */
+@media(max-height: 372px) and (max-width: 320px) and (orientation: portrait) { /* iphone 4 safari size portrait */
 	.hero_image {height: 250px;}
 	.quotation {height: 125px;}
 	.quotation .inner p {font-size: 12px;}
