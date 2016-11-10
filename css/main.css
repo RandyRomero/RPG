@@ -390,11 +390,10 @@ footer a:hover, footer a:focus, footer a:active {
 	.quotation {height: 289px;}
 }
 
-
-@media(max-height: 667px) and (max-width: 375px) and (orientation: portrait) { /*iPhone 6, 7 portrait */
+@media(max-height: 647px) and (max-width: 375px) and (orientation: portrait) { /*iPhone 6, 7 chrome portrait */
 	
-	.hero_image {height: 552px;}
-	.quotation {height: 276px;}
+	.hero_image {height: 526px;}
+	.quotation {height: 263px;}
 }
 
 @media(max-height: 640px) and (max-width: 400px) and (orientation: portrait) { /*Galaxy S6, S7 portrait */
@@ -402,6 +401,14 @@ footer a:hover, footer a:focus, footer a:active {
 	.hero_image {height: 522px;}
 	.quotation {height: 261px;}
 }
+
+
+@media(max-height: 627px) and (max-width: 375px) and (orientation: portrait) { /*iPhone 6, 7 safari portrait */
+	
+	.hero_image {height: 506px;}
+	.quotation {height: 253px;}
+}
+
 
 @media(max-height: 620px) and (max-width: 360px) and (orientation: portrait) { /* Xiaomi Redmi Note 3 Pro*/
 	.hero_image {height: 500px;}
