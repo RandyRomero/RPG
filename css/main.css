@@ -378,16 +378,16 @@ footer a:hover, footer a:focus, footer a:active {
 
 /**** mobile-portrait-rules ****/
 
-@media(max-height: 736px) and (max-width: 414px) and (orientation: portrait) { /* Apple iPhone 6 Plus, 6s Plus portrait */
+@media(max-height: 716px) and (max-width: 414px) and (orientation: portrait) { /* Apple iPhone 6/7 Plus, 6s/7s Plus portrait */
 	.quotation .inner p {font-size: 4.5vw;}
-	.hero_image {height: 625px;}
+	.hero_image {height: 595px;}
 	.quotation {height: 312px;}
 }
 
-@media(max-height: 695px) and (max-width: 412px) and (orientation: portrait)/* portrait */ { 
+@media(max-height: 696px) and (max-width: 414px) and (orientation: portrait)/* Apple iPhone 6/7 Plus, 6s/7s Plus portrait  */ { 
 	
-	.hero_image {height: 570px;}
-	.quotation {height: 285px;}
+	.hero_image {height: 575px;}
+	.quotation {height: 287px;}
 }
 
 @media(max-height: 647px) and (max-width: 375px) and (orientation: portrait) { /*iPhone 6, 7 chrome portrait */
