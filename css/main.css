@@ -386,8 +386,8 @@ footer a:hover, footer a:focus, footer a:active {
 
 @media(max-height: 695px) and (max-width: 412px) and (orientation: portrait)/* portrait */ { 
 	
-	.hero_image {height: 577px;}
-	.quotation {height: 289px;}
+	.hero_image {height: 570px;}
+	.quotation {height: 285px;}
 }
 
 @media(max-height: 647px) and (max-width: 375px) and (orientation: portrait) { /*iPhone 6, 7 chrome portrait */
