@@ -342,8 +342,8 @@ footer a:hover, footer a:focus, footer a:active {
 	.quotation {height: 545px;}
 }
 
-@media(max-height: 1120px) and (max-width: 800px) and (orientation: portrait) { /* Lenovo S6000  Portrait */
-	.hero_image { height: 925px; }
+@media(max-height: 1167px) and (max-width: 800px) and (orientation: portrait) { /* Lenovo S6000  Portrait */
+	.hero_image { height: 975px; }
 	.quotation { height: 460px;	}
 }
 
