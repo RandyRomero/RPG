@@ -27,6 +27,7 @@
 	background-attachment: fixed; /* to stick background img */
 	background-size: cover;
 	min-height: 84.8vh;
+	width: 100%;
 }
 
 .deutschland main {
@@ -53,6 +54,11 @@
 .photopage .wrapper .margin.row {
 	height: 83vh;
 	width: 100%;
+}
+
+.photopage main .row {
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .photopage main .thumbnail {
