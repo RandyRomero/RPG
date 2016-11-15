@@ -23,12 +23,7 @@
 
 /************************************ MAIN ************************************/
 
-.photopage main {
-	background-attachment: fixed; /* to stick background img */
-	background-size: cover;
-	min-height: 84.8vh;
-	width: 100%;
-}
+
 
 .deutschland main {
 	background-image: url(../image/heros/weingarten.jpg);
@@ -45,6 +40,13 @@
 .aboutme main {
 	background-image: url('../image/heros/vine.jpg');
 	background-position: center;
+}
+
+.photopage main {
+	background-attachment: fixed; /* to stick background img */
+	background-size: cover;
+	min-height: 84.8vh;
+	width: 100%;
 }
 
 .photopage main>.wrapper {
