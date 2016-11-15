@@ -27,9 +27,7 @@
 
 .deutschland main {
 	background-image: url(../image/heros/weingarten.jpg);
-	background-attachment: fixed;
 	background-position: bottom;
-	background-size: cover;
 }
 
 .everything main {
@@ -46,6 +44,7 @@
 	background-attachment: fixed; /* to stick background img */
 	background-size: cover;
 	min-height: 84.8vh;
+	position: static;
 	width: 100%;
 }
 
