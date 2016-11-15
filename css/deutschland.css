@@ -23,12 +23,23 @@
 
 /************************************ MAIN ************************************/
 
+.fixed-bg {
+	background-attachment: fixed;
+	background-image: url('../image/heros/weingarten.jpg');
+	background-position: bottom;
+	background-size: cover;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	z-index: -1;		
+}
 
-
+/*
 .deutschland main {
 	background-image: url(../image/heros/weingarten.jpg);
 	background-position: bottom;
 }
+*/
 
 .everything main {
 	background-image: url('../image/heros/london-sky.jpg');
