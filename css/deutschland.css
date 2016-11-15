@@ -120,7 +120,14 @@
 
 @media(max-width: 736px) {
 	.aboutme .col-md-6 {
+		font-size: 20px;
 		width: 80%;
+	}
+}
+
+@media(max-width: 550px) {
+	.aboutme .col-md-6 {
+		font-size: 15px;
 	}
 }
 
