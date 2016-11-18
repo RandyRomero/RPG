@@ -29,7 +29,7 @@
 	background-size: cover;
 	height: 100%;
 	position: fixed;
-	bottom: 41px; /* to adjust position of background picture */
+	bottom: 40px; /* to adjust position of background picture */
 	width: 100%;
 	z-index: -1;		
 }
