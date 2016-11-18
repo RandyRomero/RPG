@@ -421,8 +421,14 @@ footer a:hover, footer a:focus, footer a:active {
 	.quotation {height: 239px;}
 }
 
+@media(max-height: 568px) and (max-width: 360px) and (orientation: portrait) { /* Full HD smartphone with bar with home key and other - without physical sensor keys*/
+	
+	.hero_image {height: 450px;}
+	.quotation {height 225px;}
+}
+
 @media(max-height: 548px) and (max-width: 360px) and (orientation: portrait) { /*iphone 5 chrome portrait */
-	.hero_image {height: 429px;}
+	.hero_image {height: 429px;}  
 	.quotation {height: 215px;}
 }
 
@@ -464,6 +470,10 @@ footer a:hover, footer a:focus, footer a:active {
 
 @media(max-height: 340px) and (max-width: 640px) and (orientation: landscape) { /* landscape for Xiaomi Redmi Note 3 Pro */
 	.hero_image, .quotation {height: 245px;}	
+}
+
+@media(max-height: 336px) and (max-width: 592px) and (orientation: landscape) { /* Unknown Full HD without sensor keys */
+	.hero_image, quotation {height: 215px;}
 }
 
 @media(max-height: 320px) and (max-width: 568px) and (orientation: landscape) { /* landscape up to height 320 */
