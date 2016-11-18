@@ -484,8 +484,10 @@ footer a:hover, footer a:focus, footer a:active {
 	.hero_image, .quotation {height: 183px;}
 }
 
-@media(max-height: 280px) and (max-width: 480px) and (orientation: landscape) { /*landscape for iPhone 4 safari */
-	.hero_image, .quotation {
-		height: 160px;
-	}
+@media(max-height: 300px) and (max-width: 480px) and (orientation: landscape) { /*landscape for iPhone 4 chrome */
+	.hero_image, .quotation { height: 178px; }
+}
+
+@media(max-height: 280px) and (max-width: 480px) and (orientation: landscape) { /*landscape for iPhone 4 safari */ 
+	.hero_image, .quotation { height: 160px; }
 }
