@@ -483,3 +483,9 @@ footer a:hover, footer a:focus, footer a:active {
 @media(max-height: 280px) and (max-width: 600px) and (orientation: landscape) { /*landscape for Huaawei Mate 7 with nabar*/
 	.hero_image, .quotation {height: 183px;}
 }
+
+@media(max-height: 280px) and (max-width: 480px) and (orientation: landscape) { /*landscape for iPhone 4 safari */
+	.hero_image, .quotation {
+		height: 160px;
+	}
+}
