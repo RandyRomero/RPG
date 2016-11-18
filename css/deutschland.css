@@ -23,40 +23,27 @@
 
 /************************************ MAIN ************************************/
 
-.fixed-bg {
-	background-image: url('../image/heros/weingarten.jpg');
+.fixed-bg {  /*for fixed baclground picture*/
 	background-position: bottom;
 	background-size: cover;
 	height: 100%;
 	position: fixed;
-	bottom: 40px; /* to adjust position of background picture */
 	width: 100%;
 	z-index: -1;		
 }
 
-/*
-.deutschland main {
-	background-image: url(../image/heros/weingarten.jpg);
-	background-position: bottom;
+.deutschland .fixed-bg {
+	background-image: url('../image/heros/weingarten.jpg');
+	bottom: 40px; /* to adjust position of background picture */
 }
-*/
 
-.everything main {
+.everything .fixed-bg {
 	background-image: url('../image/heros/london-sky.jpg');
-	background-position: center;
+	bottom: 0;
 }
 
-.aboutme main {
+.aboutme .fixed-bg {
 	background-image: url('../image/heros/vine.jpg');
-	background-position: center;
-}
-
-.photopage main {
-	background-attachment: fixed; /* to stick background img */
-	background-size: cover;
-	min-height: 84.8vh;
-	position: static;
-	width: 100%;
 }
 
 .photopage main>.wrapper {
