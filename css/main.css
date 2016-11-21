@@ -464,12 +464,12 @@ footer a:hover, footer a:focus, footer a:active {
 	.hero_image, .quotation {height: 320px;}
 }
 
-@media(max-height: 375px) and (max-width: 667px) and (orientation: landscape) { /* iPhone 6, 7 landscape */
-	.hero_image, .quotation {height: 280px;}
-}
-
 @media(max-height: 400px) and (max-width: 640px) and (orientation: landscape) { /* landscape for 360 and 400px height */
 	.hero_image, .quotation {height: 265px;}
+}
+
+@media(max-height: 375px) and (max-width: 736px) and (orientation: landscape) { /* landscape for iPhone 6/7/s crhome and iPhone 6/7/s Plus safari */
+	.hero_image, .quotation {height: 280px;}
 }
 
 @media(max-height: 355px) and (max-width: 667px) and (orientation: landscape) { /* landscape for iPhone 6/7/s chrome landscape */
