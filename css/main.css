@@ -472,6 +472,10 @@ footer a:hover, footer a:focus, footer a:active {
 	.hero_image, .quotation {height: 265px;}
 }
 
+@media(max-height: 355px) and (max-width: 667px) and (orientation: landscape) { /* landscape for iPhone 6/7/s chrome landscape */
+	.hero_image, .quotation { height: 259px}
+}
+
 @media(max-height: 340px) and (max-width: 640px) and (orientation: landscape) { /* landscape for Xiaomi Redmi Note 3 Pro */
 	.hero_image, .quotation {height: 245px;}	
 }
