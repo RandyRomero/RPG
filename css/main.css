@@ -480,6 +480,10 @@ footer a:hover, footer a:focus, footer a:active {
 	.hero_image, quotation {height: 215px;}
 }
 
+@media(max-height: 335px) and (max-width: 667px) and (orientation: landscape) { /*landscape for iPhone 6/7 saf */
+	.hero_image, .quotation { height: 239px }
+}
+
 @media(max-height: 320px) and (max-width: 568px) and (orientation: landscape) { /* landscape up to height 320 */
 	.hero_image, .quotation {height: 200px;}
 }
