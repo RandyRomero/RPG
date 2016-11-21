@@ -469,7 +469,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 @media(max-height: 394px) and (max-width: 736px) and (orientation: landscape) { /* landscape for iPhone 6/7/s Plus chrome */
-	.hero_image, quotation { height: 300px; }
+	.hero_image, quotation { height: 296px; }
 }
 
 @media(max-height: 375px) and (max-width: 736px) and (orientation: landscape) { /* landscape for iPhone 6/7/s crhome and iPhone 6/7/s Plus safari */
