@@ -98,7 +98,7 @@ header li a:hover, header li a:active, header li a:focus {
 	background-repeat: no-repeat;
 }
 
-.hero_image, .quotation { height: calc(100vh - 150px); }
+.hero_image, .quotation { height: calc(100vh - 150px); } /* the whole space between header and footer */
 
 .hero_image:first-child {background-image: url('../image/heros/ln-new-logo.jpg');}
 
