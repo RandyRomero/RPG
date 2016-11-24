@@ -110,7 +110,6 @@ header li a:hover, header li a:active, header li a:focus {
 
 .hero_image:nth-child(5) {
 	background-image: url('../image/heros/auto.jpg');
-	/*background-image: url('../image/weimgarten_field.jpg');*/
 	background-position: bottom;
 }
 
@@ -202,7 +201,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 @media(max-width: 950px) {
-	.inner_wrapper {margin: 0 20px; /* to keep contant of footer inside footer */}
+	.inner_wrapper {margin: 0 20px; /* to keep content of footer inside footer */}
 }
 
 @media(max-width: 950px) and (min-width: 801px), (orientation: portrait), (max-width: 597px) { 
@@ -226,6 +225,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 	
 	header li {display: inline-block;}
+	
 }
 
 @media(min-height: 950px) and (orientation: portrait) {
@@ -297,29 +297,14 @@ footer a:hover, footer a:focus, footer a:active {
 	.hero_image, .quotation {width: 320px;}
 }
 
-/************************************ HEROS' SIZES ************************************/
-/************ PC **********/
-
-
-
-/****************** hero and quotation divs' height - tablets ***************/
-
-/**** tablets-potrait-rules ****/
-
 @media (max-height: 1366px) and (max-width: 1024px) and (orientation: portrait) { /* Apple iPad Pro portrait */
 	.quotation .inner p {font-size: 4.5vw;}
 	.hero_image:nth-child(5) {background-position: right;}
 }
 
-
-/****************** hero and quotation divs' height - smartphones ***************/
-
-/**** mobile-portrait-rules ****/
-
 @media(max-height: 716px) and (max-width: 414px) and (orientation: portrait) { /* Apple iPhone 6/7 Plus, 6s/7s Plus portrait */
 	.quotation .inner p {font-size: 4.5vw;}
 }
-/**** mobile-landscape-rules ****/
 
 @media(max-height: 414px) and (max-width: 736px) and (orientation: landscape) /* up to 414px heightS landscape  */ {
 	.quotation .inner p {font-size: 3.5vw;}
