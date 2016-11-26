@@ -206,7 +206,9 @@ footer a:hover, footer a:focus, footer a:active {
 
 @media(max-width: 950px) and (min-width: 801px), (orientation: portrait), (max-width: 597px) { 
 	body {padding-top: 140px; /* because header is fixed */} 	
-	
+}
+
+@media(orientation: portrait) {
 	header h1 {
 		display: block;
 		float: none;
