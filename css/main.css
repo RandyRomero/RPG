@@ -224,7 +224,7 @@ footer a:hover, footer a:focus, footer a:active {
 		width: 90%; /* idk why exactly 90% but it works for centering" */ 
 	}
 	
-	header li {display: inline-block;}
+/*	header li {display: inline-block;} looks useless but who knows */ 
 	
 }
 
