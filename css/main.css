@@ -285,7 +285,7 @@ footer a:hover, footer a:focus, footer a:active {
 	footer p {padding: 10px 7px;}
 }
 
-@media(max-width: 585px) { /* set body and elements of header paddings for width < 597px */
+@media(max-width: 585px) and (orientation: portrait) { /* set body and elements of header paddings for width < 597px */
 	
 	body {padding-top: 81px;}
 	header h1 {padding-bottom: 5px;}
