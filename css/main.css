@@ -204,10 +204,6 @@ footer a:hover, footer a:focus, footer a:active {
 	footer .inner_wrapper {margin: 0 20px; /* to keep content of footer inside footer */}
 }
 
-@media(max-width: 950px) and (min-width: 801px), (orientation: portrait) { 
-	body {padding-top: 140px; /* because header is fixed */} 	
-}
-
 @media(orientation: portrait) { /* logo above navbar */
 	header h1 {
 		display: block;
@@ -221,6 +217,7 @@ footer a:hover, footer a:focus, footer a:active {
 		display: block;
 		float: none!important;
 		margin: 0 auto;
+		padding-bottom: 25px;
 		text-align: center;
 		padding-top: 7px;
 		width: 90%; /* idk why exactly 90% but it works for centering" */ 
@@ -231,25 +228,29 @@ footer a:hover, footer a:focus, footer a:active {
 		max-width: 952px;
 	}
 	
+	
 /*	header li {display: inline-block;} looks useless but who knows */ 
 	
 }
 
-@media(min-height: 950px) and (orientation: portrait) {
+/* offset from top of the page(body) because of fixed header */
+
+/*@media(min-height: 950px) and (orientation: portrait) {
 	body {padding-top: 132px;}
-	
 	header ul {padding-bottom: 23px;}
 }
 
+@media(max-width: 950px) and (min-width: 801px), (orientation: portrait) { 
+	body {padding-top: 140px; /* because header is fixed */} 	
+}*/
+
 @media(max-width: 950px) and (min-width: 801px) {
-	body { /* offset from top of the page(body) because of fixed header */
-		padding-top: 130px;
-	}
 	
-	header ul {padding-bottom: 25px;}
+	body {padding-top: 130px;}
+
 }
 
-@media(max-width: 800px) and (min-width: 597px) and (orientation: landscape) {
+@media(max-width: 800px) and (min-width: 585px) and (orientation: landscape) {
 	body {padding-top: 57px;/* remove the gap between header and main div */}
 }
 
@@ -265,7 +266,6 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 	
 	header ul {padding: 16.5px;}
-	
 	header ul li a {
 		font-size: 10px;
 		padding: 5px;
@@ -281,12 +281,10 @@ footer a:hover, footer a:focus, footer a:active {
 	footer p {padding: 10px 7px;}
 }
 
-@media(max-width: 597px) { /* set body and elements of header paddings for width < 597px */
+@media(max-width: 585px) { /* set body and elements of header paddings for width < 597px */
 	
 	body {padding-top: 81px;}
-	
 	header h1 {padding-bottom: 5px;}
-	
 	header ul {
 		padding-bottom: 10px;
 		padding-top: 3px;
