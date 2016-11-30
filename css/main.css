@@ -205,7 +205,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 @media(max-width: 950px) {
-	footer .inner_wrapper {margin: 0 20px; /* to keep content of footer inside footer */}
+	.inner_wrapper {margin: 0 20px; /* to keep content of footer inside footer */}
 }
 
 @media(orientation: portrait) { /* logo above navbar */
@@ -255,7 +255,7 @@ footer a:hover, footer a:focus, footer a:active {
 	body {padding-top: 57px;/* remove the gap between header and main div */}
 }
 
-@media(max-width: 800px) and (orientation: landscape), (max-width: 600px) and (orientation: portrait), (max-height: 480px) {
+@media(max-width: 850px) and (orientation: landscape), (max-width: 600px) and (orientation: portrait), (max-height: 480px) {
 	body {
 		padding-bottom: 40px;
 		padding-top: 57px;
