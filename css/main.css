@@ -208,7 +208,9 @@ footer a:hover, footer a:focus, footer a:active {
 	.inner_wrapper {margin: 0 20px; /* to keep content of footer inside footer */}
 }
 
-@media(orientation: portrait) { /* logo above navbar */
+@media(orientation: portrait), (max-width: 375px) /* because otherwise logo and navbar fot fit into one line */ { 
+	
+	/* logo above navbar */
 	header h1 {
 		display: block;
 		float: none;
@@ -295,6 +297,12 @@ footer a:hover, footer a:focus, footer a:active {
 @media(max-width: 630px) and (orientation: landscape) {
 	header h1:first-of-type { display: none; }
 	header h1:nth-of-type(2) {display: inline; }
+	/* change full logo to 3-letter logo */
+}
+
+@media(max-width: 375px) {
+	header h1:first-of-type { display: block; }
+	header h1:nth-of-type(2) {display: none; }
 }
 
 @media (max-height: 1366px) and (max-width: 1024px) and (orientation: portrait) { /* Apple iPad Pro portrait */
