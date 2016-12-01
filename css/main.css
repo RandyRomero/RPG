@@ -233,9 +233,8 @@ footer a:hover, footer a:focus, footer a:active {
 	
 	.quotation .middle .inner {
 		width: 75%; /* more space for text in quotation */
-		max-width: 952px;
-	}
-/*	header li {display: inline-block;} looks useless but who knows */ 	
+		max-width: 952px; /*to not let it get wider and wider, because text would be difficult to read */
+	} 	
 }
 
 /*@media(min-height: 950px) and (orientation: portrait) {
