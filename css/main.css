@@ -291,6 +291,10 @@ footer a:hover, footer a:focus, footer a:active {
 		padding-bottom: 10px;
 		padding-top: 3px;
 	}
+	
+	main .hero_image { height: calc(100vh - 122px); } 
+	
+	main .quotation { height: calc(64vh - 122px); } /* somehow it's half of hero_image height */
 }
 
 @media(max-width: 630px) and (orientation: landscape) {
