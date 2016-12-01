@@ -208,9 +208,10 @@ footer a:hover, footer a:focus, footer a:active {
 	.inner_wrapper {margin: 0 20px; /* to keep content of footer inside footer */}
 }
 
-@media(orientation: portrait), (max-width: 375px) and (max-height: 375px) /* because otherwise logo and navbar fot fit into one line */ { 
+
+/*** logo above navbar ***/
+@media(orientation: portrait), (max-width: 375px) and (max-height: 375px /* because otherwise logo and navbar not fit into one line */) { 
 	
-	/* logo above navbar */
 	header .inner_wrapper { margin: auto; } /* otherwise navbar doesn't look good on iPhone 4 */
 	
 	header h1 { 
@@ -238,13 +239,17 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 @media(orientation: portrait) {
-	main .quotation { height: calc(50vh - 95px); } /*192px;*/
+	main .quotation { height: calc(50vh - 95px); } /* mostly for tablets */
 }
 
+/************ Get header and footer smaller: decreasing paddings 
+and fonts for small viewports, changing height of hero and quotations divs ************/
+
 @media(max-width: 850px) and (orientation: landscape), (max-width: 585px) and (orientation: portrait), (max-height: 480px) {
-	body {
+	
+	body { /*change offset because fixed header and footer got smaller */
 		padding-bottom: 40px;
-		padding-top: 57px;
+		padding-top: 57px; 
 	}
 	
 	header h1 {
@@ -258,12 +263,10 @@ footer a:hover, footer a:focus, footer a:active {
 		padding: 5px;
 	}
 	
-	main .hero_image, main .quotation {
-		height: calc(100vh - 97px); 
-	}
+	main .hero_image, main .quotation { height: calc(100vh - 97px); }
 	
 	.quotation .middle .inner {
-		width: 75%; /* more space for text in quotation */
+		width: 75%; /* more space for text in quotation - looks better */
 		max-width: 952px;
 	}
 	
@@ -273,7 +276,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 @media(max-width: 585px) and (orientation: portrait) {
-	main .quotation { height: calc(50vh - 97); }
+	main .quotation { height: calc(50vh - 97); } /* quotation size for small viewports */
 }
 
 
@@ -302,22 +305,15 @@ footer a:hover, footer a:focus, footer a:active {
 	header h1:nth-of-type(2) {display: none; }
 }
 
-@media (max-height: 1366px) and (max-width: 1024px) and (orientation: portrait) { /* Apple iPad Pro portrait */
+@media (max-height: 1366px) and (max-width: 1024px) and (orientation: portrait) { /* font size for portrait orientation from the smallest vieports up to Apple iPad Pro portrait */
 	.quotation .inner p {font-size: 4.5vw;}
 	.hero_image:nth-child(5) {background-position: right;} /* move picture because this way it looks better on small screens */
 }
-
- /* @media(max-height: 716px) and (max-width: 414px) and (orientation: portrait) { 
-	.quotation .inner p {font-size: 4.5vw;}
-} I think this is useless but I am not sure */ 
 
 @media(max-height: 414px) and (max-width: 736px) and (orientation: landscape) /* up to 414px heightS landscape  */ {
 	.quotation .inner p {font-size: 3.5vw;}
 }
 
 @media(max-width: 320px) { /* to set min width of page */
-
-	.quotation .inner p {
-		font-size: 14.4px;
-	}
+	.quotation .inner p { font-size: 14.4px; }
 }
