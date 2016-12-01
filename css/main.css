@@ -237,24 +237,6 @@ footer a:hover, footer a:focus, footer a:active {
 	} 	
 }
 
-/*@media(min-height: 950px) and (orientation: portrait) {
-	body {padding-top: 132px;}
-	header ul {padding-bottom: 23px;}
-}
-
-@media(max-width: 950px) and (min-width: 801px), (orientation: portrait) { 
-	body {padding-top: 140px; s} 	
-} */
-
-/*@media(max-width: 950px) and (min-width: 801px) {
-	body {padding-top: 130px;}
-	}
-}*/
-
-/* @media(max-width: 800px) and (min-width: 585px) and (orientation: landscape) {
-	body {padding-top: 57px; }
-} */
-
 @media(max-width: 850px) and (orientation: landscape), (max-width: 585px) and (orientation: portrait), (max-height: 480px) {
 	body {
 		padding-bottom: 40px;
