@@ -235,10 +235,7 @@ footer a:hover, footer a:focus, footer a:active {
 		width: 75%; /* more space for text in quotation */
 		max-width: 952px;
 	}
-	
-	
-/*	header li {display: inline-block;} looks useless but who knows */ 
-	
+/*	header li {display: inline-block;} looks useless but who knows */ 	
 }
 
 /*@media(min-height: 950px) and (orientation: portrait) {
@@ -259,7 +256,7 @@ footer a:hover, footer a:focus, footer a:active {
 	body {padding-top: 57px;/* remove the gap between header and main div */}
 }
 
-@media(max-width: 850px) and (orientation: landscape), (max-width: 600px) and (orientation: portrait), (max-height: 480px) {
+@media(max-width: 850px) and (orientation: landscape), (max-width: 585px) and (orientation: portrait), (max-height: 480px) {
 	body {
 		padding-bottom: 40px;
 		padding-top: 57px;
