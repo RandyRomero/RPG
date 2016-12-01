@@ -293,17 +293,17 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 	
 	main .hero_image { height: calc(100vh - 122px); } 
-	
 	main .quotation { height: calc(64vh - 122px); } /* somehow it's half of hero_image height */
 }
 
 @media(max-width: 630px) and (orientation: landscape) {
+	/* change full logo to 3-letter logo */
 	header h1:first-of-type { display: none; }
 	header h1:nth-of-type(2) {display: inline; }
-	/* change full logo to 3-letter logo */
 }
 
 @media(max-width: 375px) {
+	/* change 3-letter logo for normal logo back */
 	header h1:first-of-type { display: block; }
 	header h1:nth-of-type(2) {display: none; }
 }
