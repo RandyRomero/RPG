@@ -237,6 +237,10 @@ footer a:hover, footer a:focus, footer a:active {
 	} 	
 }
 
+@media(orientation: portrait) {
+	main .quotation { height: calc(50vh - 95px); } /*192px;*/
+}
+
 @media(max-width: 850px) and (orientation: landscape), (max-width: 585px) and (orientation: portrait), (max-height: 480px) {
 	body {
 		padding-bottom: 40px;
@@ -283,7 +287,7 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 	
 	main .hero_image { height: calc(100vh - 122px); } 
-	main .quotation { height: calc(64vh - 122px); } /* somehow it's half of hero_image height */
+	main .quotation { height: calc(64vh - 122px); } /* somehow it's roughly half of hero_image height */
 }
 
 @media(max-width: 630px) and (orientation: landscape) {
@@ -317,5 +321,3 @@ footer a:hover, footer a:focus, footer a:active {
 		font-size: 14.4px;
 	}
 }
-
-
