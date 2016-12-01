@@ -252,9 +252,9 @@ footer a:hover, footer a:focus, footer a:active {
 	}
 }*/
 
-@media(max-width: 800px) and (min-width: 585px) and (orientation: landscape) {
-	body {padding-top: 57px;/* remove the gap between header and main div */}
-}
+/* @media(max-width: 800px) and (min-width: 585px) and (orientation: landscape) {
+	body {padding-top: 57px; }
+} */
 
 @media(max-width: 850px) and (orientation: landscape), (max-width: 585px) and (orientation: portrait), (max-height: 480px) {
 	body {
@@ -273,6 +273,10 @@ footer a:hover, footer a:focus, footer a:active {
 		padding: 5px;
 	}
 	
+	main .hero_image, main .quotation {
+		height: calc(100vh - 97px); 
+	}
+	
 	.quotation .middle .inner {
 		width: 75%; /* more space for text in quotation */
 		max-width: 952px;
@@ -282,6 +286,11 @@ footer a:hover, footer a:focus, footer a:active {
 	footer ul {padding: 3px 0;}
 	footer p {padding: 10px;}
 }
+
+@media(max-width: 585px) and (orientation: portrait) {
+	main .quotation { height: calc(50vh - 97); }
+}
+
 
 @media(max-width: 585px) and (orientation: portrait), (max-width: 375px) and (max-height: 375px) /* otherwise logo and navbar too far away from each other */ { 
 	
