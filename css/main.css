@@ -282,7 +282,7 @@ and fonts for small viewports, changing height of hero and quotations divs *****
 
 @media(max-width: 585px) and (orientation: portrait), (max-width: 375px) and (max-height: 375px) /* otherwise logo and navbar too far away from each other */ { 
 	
-	body {padding-top: 80px;} /* 81px */
+	body {padding-top: 79px;} /* 81px */
 	header h1 {padding-bottom: 5px;}
 	header ul {
 		padding-bottom: 10px;
