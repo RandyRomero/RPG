@@ -2,7 +2,7 @@ html {
 	-webkit-text-size-adjust: none; /* to prevent in-app browser change font-size */
     -ms-text-size-adjust: none;
     -moz-text-size-adjust: none;
-	
+	text-size-adjust: none;
 	font-size: 16px;
 }
 
@@ -161,6 +161,7 @@ footer {
 	border-top: 4px solid black;
 	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
+	min-height: 54px;
 	position: fixed;
 	width: 100%;
 	z-index: 2; /* to keep footer above main content */	
@@ -278,7 +279,12 @@ and fonts for small viewports, changing height of hero and quotations divs *****
 		max-width: 952px;
 	}
 	
-	footer {font-size: 12px;}
+	footer {
+		font-size: 12px;
+		min-height: 37px;
+	}
+	
+	
 	footer ul {padding: 3px 0;}
 	footer p {padding: 10px;}
 }
