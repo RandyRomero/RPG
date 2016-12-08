@@ -161,7 +161,6 @@ footer {
 	border-top: 4px solid black;
 	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
-	min-height: 54px;
 	position: fixed;
 	width: 100%;
 	z-index: 2; /* to keep footer above main content */	
@@ -279,12 +278,7 @@ and fonts for small viewports, changing height of hero and quotations divs *****
 		max-width: 952px;
 	}
 	
-	footer {
-		font-size: 12px;
-		min-height: 37px;
-	}
-	
-	
+	footer { font-size: 12px; }
 	footer ul {padding: 3px 0;}
 	footer p {padding: 10px;}
 }
