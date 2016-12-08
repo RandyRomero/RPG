@@ -1,8 +1,4 @@
 html {
-	-webkit-text-size-adjust: none; /* to prevent in-app browser change font-size */
-    -ms-text-size-adjust: none;
-    -moz-text-size-adjust: none;
-	text-size-adjust: none;
 	font-size: 16px;
 }
 
