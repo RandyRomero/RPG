@@ -1,6 +1,4 @@
-html {
-	font-size: 16px;
-}
+html { font-size: 16px;}
 
 html, body {
 	margin: 0;
@@ -8,11 +6,10 @@ html, body {
 }
 
 body {
+	background-color: black; /* in case container goes below header */
 	padding-top: 90px; /* to shift MAIN container below fixed header */
 	padding-bottom: 54px; /* same about fixed footer  */
 }
-
-
 
 .wrapper {
 	height: auto;
