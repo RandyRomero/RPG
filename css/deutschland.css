@@ -46,14 +46,39 @@
 	background-image: url('../image/heros/vine.jpg');
 }
 
+/******************************** GALLERY ******************/
+
 .photopage main>.wrapper {
-	padding-top: 5vh;
+	align-items: center; /* to justify rows with images horizontally */
+    display: flex;
+    flex-direction: column; /* to lay raws from top to bottom */
+    padding-top: 5vh;
 }
 
 .photopage .wrapper .margin.row { /* special row to hide photographs */
 	height: 83vh; 
 	width: 100%;
 }
+
+.deutschland .row {
+	display: flex;
+	justify-content: space-between; 
+	width: 95%;
+	padding: 20px 40px;
+}
+
+.deutschland .three_img img {
+	max-width: 30%; 
+	height: auto;
+}
+
+.deutschland img {
+	border: 10px solid #242424;
+}
+
+/*
+
+============for bootstrap thumbnail ==========
 
 .photopage main .row {
 	margin-left: 0px;
@@ -69,6 +94,7 @@
 	background: #242424;
 	padding: 10px;
 }
+*/
 
 .aboutme .col-md-6 {
 	border: 10px solid white;
