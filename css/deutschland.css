@@ -67,9 +67,13 @@
 	padding: 20px 40px;
 }
 
+.deutschland .two_img img {
+    width: 100%;
+}
+
 .deutschland .three_img img {
-	max-width: 30%; 
-	height: auto;
+    width: 30%;
+    height: 30%;
 }
 
 .deutschland img {
