@@ -71,6 +71,11 @@
     justify-content: space-around;
 }
 
+
+.deutschland .row div {
+    margin: 0 30px;
+} 
+
 /* you need to put every img into inside div to keep it aspect ratio */
 .deutschland .two_img img {
     width: 100%;
