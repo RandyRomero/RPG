@@ -63,17 +63,21 @@
 .deutschland .row {
 	display: flex;
 	justify-content: space-between; 
-	width: 95%;
+	width: 100%;
 	padding: 20px 40px;
 }
 
+.deutschland .row:nth-child(even) {
+    justify-content: space-around;
+}
+
+/* you need to put every img into inside div to keep it aspect ratio */
 .deutschland .two_img img {
     width: 100%;
 }
 
 .deutschland .three_img img {
-    width: 30%;
-    height: 30%;
+    width: 100%; 
 }
 
 .deutschland img {
