@@ -68,29 +68,28 @@
 }
 
 .deutschland .row:nth-child(even) {
-    justify-content: center;
+/*    justify-content: space-around;*/
+    width: 98%;
 }
 
 .deutschland .row div {
     border: 10px solid #242424; /* because it doesn't work properly applied to images within flexbox*/
 	flex: auto; /* determine auto shrinking / growing */
-	/* width: 100%;  doesn't really make sense */
-	margin: 0 30px;
-/*	padding: 0 10px;*/
+	margin: 0 20px;
 } 
 
-.deutschland .row:nth-of-type(even) div {
-	margin: 0 2vw;
+.deutschland .row:nth-of-type(even) div:first-of-type {
+    margin-right: 2vw;
+}
+
+.deutschland .row:nth-of-type(even) div:nth-of-type(2) {
+    margin-left: 2vw;
 }
 
 /* you need to put every img into inside div to keep it aspect ratio */
 .deutschland img {
-    height: 100%;
-	width: 100%;
-}
-
-.deutschland img {
-/*	border: 10px solid #242424;*/
+    height: 100%; /* to fit in div! */
+	width: 100%;   /* without this all is going pear-shaped */
 }
 
 /*
