@@ -68,25 +68,29 @@
 }
 
 .deutschland .row:nth-child(even) {
-    justify-content: space-around;
+    justify-content: center;
 }
-
 
 .deutschland .row div {
-    margin: 0 30px;
+    border: 10px solid #242424; /* because it doesn't work properly applied to images within flexbox*/
+	flex: auto; /* determine auto shrinking / growing */
+	/* width: 100%;  doesn't really make sense */
+	margin: 0 30px;
+/*	padding: 0 10px;*/
 } 
 
-/* you need to put every img into inside div to keep it aspect ratio */
-.deutschland .two_img img {
-    width: 100%;
+.deutschland .row:nth-of-type(even) div {
+	margin: 0 2vw;
 }
 
-.deutschland .three_img img {
-    width: 100%; 
+/* you need to put every img into inside div to keep it aspect ratio */
+.deutschland img {
+    height: 100%;
+	width: 100%;
 }
 
 .deutschland img {
-	border: 10px solid #242424;
+/*	border: 10px solid #242424;*/
 }
 
 /*
