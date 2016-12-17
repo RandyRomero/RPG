@@ -79,11 +79,11 @@
 } 
 
 .deutschland .row:nth-of-type(even) div:first-of-type {
-    margin-right: 2vw;
+    margin-right: 2.3vw;
 }
 
 .deutschland .row:nth-of-type(even) div:nth-of-type(2) {
-    margin-left: 2vw;
+    margin-left: 2.3vw;
 }
 
 /* you need to put every img into inside div to keep it aspect ratio */
