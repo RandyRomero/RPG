@@ -64,12 +64,12 @@
 	display: flex;
 	justify-content: space-between; 
 	max-width: 100%;
-	padding: 13px 40px;
+	padding: 13px 0;
 }
 
 .deutschland .row:nth-child(even) {
 /*    justify-content: space-around;*/
-    max-width: 90%;
+    max-width: 96%;
 }
 
 .deutschland .row div {
