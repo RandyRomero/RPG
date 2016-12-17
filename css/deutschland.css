@@ -131,6 +131,11 @@
 	float: right;
 }
 
+/************************************ MEDIA ***********************************/
+/*********************************** QUERIES **********************************/
+
+
+
 @media(max-width: 1600px) {
 	.deutschland .row div {
 		border-width: 8px;
@@ -169,6 +174,25 @@
 	.aboutme main .wrapper .row>div:nth-of-type(2) {
 		float: none;
 	}
+}
+
+@media(max-width: 950px) and (orientation: portrait) { 
+	/* pictures in one column only for portrait
+		because it can't look fine at lnadscape */
+	.deutschland .row {
+		flex-direction: column;
+		max-width: 90%;
+	}
+	
+	.deutschland .row:nth-of-type(even) {
+		/* make the same width with three_img row */
+		max-width: 90%;
+	}
+	
+	.deutschland .row div {
+		margin: 10px 10px;
+	}
+	
 }
 
 @media(max-width: 736px) {
