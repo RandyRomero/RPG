@@ -189,9 +189,12 @@
 	
 	.deutschland .row div {
 		/*column view needs another margins than row view */
-		margin: 10px 10px;
+		margin: 10px 0;
 	}
 	
+    .deutschland .row:nth-of-type(even) div:first-of-type, .deutschland .row:nth-of-type(even) div:nth-of-type(2) {
+    margin-left: 0px;
+    margin-right: 0;
 }
 
 @media(max-width: 736px) {
