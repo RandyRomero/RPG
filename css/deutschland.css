@@ -88,6 +88,7 @@
 
 /* you need to put every img into inside div to keep it aspect ratio */
 .deutschland img {
+    display: block; /* to fit in div! */
     height: 100%; /* to fit in div! */
 	width: 100%;   /* without this all is going pear-shaped */
 }
