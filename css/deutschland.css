@@ -93,26 +93,6 @@
 	width: 100%;   /* without this all is going pear-shaped */
 }
 
-/*
-
-============for bootstrap thumbnail ==========
-
-.photopage main .row {
-	margin-left: 0px;
-	margin-right: 0px;
-}
-
-.photopage main .thumbnail {
-	background: none;
-	border: none;
-}
-
-.photopage main .thumbnail>img {
-	background: #242424;
-	padding: 10px;
-}
-*/
-
 .aboutme .col-md-6 {
 	border: 10px solid white;
 	background-color: #242424;
