@@ -1,10 +1,16 @@
 /************************************ HEADER ************************************/
 
+.photopage header a {
+    font-weight: 400;
+    text-decoration: none;
+}
+
 .deutschland header li:nth-child(2) a {
 	background-color: white;
 	border-radius: 5px;
 	color: red;
-	text-decoration: none;
+	
+    text-decoration: none;
 }
 
 .everything header li:nth-child(3) a {
