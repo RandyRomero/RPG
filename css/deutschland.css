@@ -181,7 +181,7 @@
 		because it can't look fine at lnadscape */
 	.deutschland .row {
 		flex-direction: column;
-		max-width: 90%;
+		max-width: 90%; /* pictures better fit in on small viewports */
 	}
 	
 	.deutschland .row:nth-of-type(even) {
@@ -190,6 +190,7 @@
 	}
 	
 	.deutschland .row div {
+		/*column view needs another margins than row view */
 		margin: 10px 10px;
 	}
 	
