@@ -32,6 +32,11 @@ header {
 	z-index: 2;
 }
 
+ header a {
+    font-weight: 400;
+    text-decoration: none;
+}
+
 header h1 {
 	float: left;
 	font-size: 48px;
@@ -58,7 +63,7 @@ header h1 a:hover {
 header ul {
 	float: right;
 	margin: 0;
-	padding: 35px 0;
+	padding: 39px 0;
 }
 
 header ul li {
@@ -103,7 +108,7 @@ header li a:hover, header li a:active, header li a:focus {
 	background-repeat: no-repeat;
 }
 
-.hero_image, .quotation { height: calc(100vh - 149px); } /* the whole space between header and footer */
+.hero_image, .quotation { height: calc(100vh - 145px); } /* the whole space between header and footer */
 
 .hero_image:first-child {background-image: url('../image/heros/ln-new-logo.jpg');}
 
