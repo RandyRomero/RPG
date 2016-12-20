@@ -269,7 +269,7 @@ and fonts for small viewports, changing height of hero and quotations divs *****
 		padding: 5px;
 	}
 	
-	main .hero_image, main .quotation { height: calc(100vh - 97px); }
+	main .hero_image, main .quotation { height: calc(100vh - 93px); }
 	
 	.quotation .middle .inner {
 		width: 75%; /* more space for text in quotation - looks better */
