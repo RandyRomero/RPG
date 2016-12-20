@@ -282,7 +282,7 @@ and fonts for small viewports, changing height of hero and quotations divs *****
 }
 
 @media(max-width: 585px) and (orientation: portrait) {
-	main .quotation { height: calc(50vh - 97); } /* quotation size for small viewports */
+	main .quotation { height: calc(50vh - 97px); } /* quotation size for small viewports */
 }
 
 
@@ -295,7 +295,7 @@ and fonts for small viewports, changing height of hero and quotations divs *****
 		padding-top: 3px;
 	}
 	
-	main .hero_image { height: calc(100vh - 122px); } 
+	main .hero_image { height: calc(100vh - 118px); } 
 	main .quotation { height: calc(64vh - 122px); } /* somehow it's roughly half of hero_image height */
 }
 
