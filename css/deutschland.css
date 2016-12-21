@@ -35,7 +35,7 @@
 
 .deutschland .fixed-bg {
 	background-image: url('../image/heros/weingarten.jpg');
-	bottom: 40px; /* to adjust position of background picture */
+	bottom: 33px; /* to adjust position of background picture */
 }
 
 .everything .fixed-bg {
