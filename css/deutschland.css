@@ -161,6 +161,7 @@
 	.photopage .row {
 		flex-direction: column;
 		max-width: 90%; /* pictures better fit in on small viewports */
+		padding: 0;
 	}
 	
 	.photopage .row:nth-of-type(even) {
