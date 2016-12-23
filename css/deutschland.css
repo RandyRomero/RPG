@@ -73,17 +73,17 @@
     max-width: 96%;
 }
 
-.photopage .row div {
+.gallery .row div, .aboutme .row div:first-of-type {
     border: 10px solid #242424; /* because it doesn't work properly applied to images within flexbox*/
-	flex: auto; /* determine auto shrinking / growing */
+	flex: 0 1 auto; /* determine auto shrinking / growing */
 	margin: 0 20px;
 } 
 
-.photopage .row:nth-of-type(even) div:first-of-type {
+.gallery .row:nth-of-type(even) div:first-of-type {
     margin-right: 2.3vw;
 }
 
-.photopage .row:nth-of-type(even) div:nth-of-type(2) {
+.gallery .row:nth-of-type(even) div:nth-of-type(2) {
     margin-left: 2.3vw;
 }
 
@@ -94,24 +94,15 @@
 	width: 100%;   /* without this all is going pear-shaped */
 }
 
-.aboutme .col-md-6 {
+.aboutme .inscription {
 	border: 10px solid white;
 	background-color: #242424;
 	color: white;
+	flex-basis: 640px;
 	font-family: "Oswald", sans-serif;
 	font-size: 25px;
-	width: 660px;
-	height: 660px;
 }
 
-.aboutme main .wrapper .row div:nth-of-type(1) {
-	background-image: url('../image/about me/mem.jpg');
-	background-size: cover;
-}
-
-.aboutme main .wrapper .row div:nth-of-type(2) {
-	float: right;
-}
 
 /************************************ MEDIA ***********************************/
 /*********************************** QUERIES **********************************/
@@ -119,40 +110,17 @@
 
 
 @media(max-width: 1600px) {
-	.deutschland .row div {
-		border-width: 8px;
-	}
-	
-	.aboutme .col-md-6 {
-		height: 535px;
-		width: 535px;
-	}
+	.deutschland .row div {	border-width: 8px; }	
 }
 
 @media(max-width: 1150px) {
-	.photopage .row div {
-		border-width: 6px;
-	}
-	
-	.aboutme .col-md-6 {
-		height: 435px;
-		font-size: 20px;
-		width: 435px; 
-	}
+	.photopage .row div { border-width: 6px; }
+	.aboutme .inscription p { font-size: 20px; }
+
 }
 
 @media(max-width: 992px) {
-
-	.aboutme .col-md-6 {
-		height: 330px;
-		font-size: 25px;
-		margin: 60px auto;
-		width: 660px;
-	}
-	
-	.aboutme main .wrapper .row>div:nth-of-type(2) {
-		float: none;
-	}
+		.aboutme .inscription p { font-size: 25px; }
 }
 
 @media(max-width: 950px) and (orientation: portrait) { 
@@ -177,19 +145,16 @@
     .photopage .row:nth-of-type(even) div:first-of-type, .photopage .row:nth-of-type(even) div:nth-of-type(2) {
     margin-left: 0;
     margin-right: 0;
+	}
+
 }
 
 @media(max-width: 736px) {
-	.aboutme .col-md-6 {
-		font-size: 20px;
-		width: 80%;
-	}
+	.aboutme .inscription p { font-size: 20px; }
 }
 
 @media(max-width: 550px) {
-	.aboutme .col-md-6 {
-		font-size: 15px;
-	}
+	.aboutme .inscription p { font-size: 15px; }
 }
 
 /**************** UNDER CONCTRACTION ***************/
