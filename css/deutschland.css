@@ -73,7 +73,7 @@
     max-width: 96%;
 }
 
-.gallery .row div, .aboutme .row div:first-of-type {
+.gallery .row div, .my_photo {
     border: 10px solid #242424; /* because it doesn't work properly applied to images within flexbox*/
 	flex: 0 1 auto; /* determine auto shrinking / growing */
 	margin: 0 20px;
@@ -115,7 +115,7 @@
 
 
 @media(max-width: 1600px) {
-	.deutschland .row div {	border-width: 8px; }	
+	.photopage .row div {	border-width: 8px; }	
 }
 
 @media(max-width: 1150px) {
