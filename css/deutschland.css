@@ -76,8 +76,11 @@
 .gallery .row div, .my_photo {
     border: 10px solid #242424; /* because it doesn't work properly applied to images within flexbox*/
 	flex: 0 1 auto; /* determine auto shrinking / growing */
-	margin: 0 20px;
 } 
+
+.photopage .row div {
+	margin: 0 20px;
+}
 
 .gallery .row:nth-of-type(even) div:first-of-type {
     margin-right: 2.3vw;
@@ -99,8 +102,9 @@
 	background-color: #242424;
 	color: white;
 	font-family: "Oswald", sans-serif;
-	font-size: 25px;
+	font-size: 34px;
 	height: auto;
+	line-height: 5vh;
 	max-width: 640px;
 }
 
@@ -147,15 +151,23 @@
     margin-left: 0;
     margin-right: 0;
 	}
-
 }
 
-@media(max-width: 736px) {
-	.aboutme .inscription p { font-size: 15px; }
+@media(max-width: 800px) {
+	.aboutme .row {
+		width: 85%;
+	}
 }
 
-@media(max-width: 550px) {
-	.aboutme .inscription p { font-size: 10px; }
+@media(max-width: 736px) and (orientation: portrait) {
+	.aboutme .inscription p { font-size: 4vw; }
+}
+
+@media(max-width: 550px) and (orientation: landscape) {
+	.aboutme .inscription p { 
+		font-size: 1.8vw;
+		padding: 0 10px;
+	}
 }
 
 /**************** UNDER CONCTRACTION ***************/
