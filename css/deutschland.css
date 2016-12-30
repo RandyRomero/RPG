@@ -102,9 +102,7 @@
 	background-color: #242424;
 	color: white;
 	font-family: "Oswald", sans-serif;
-	font-size: 34px;
 	height: auto;
-	line-height: 5vh;
 	max-width: 640px;
 }
 
@@ -117,6 +115,11 @@
 /*********************************** QUERIES **********************************/
 
 
+@media(max-height: 1300px) and (orientation: portrait) {
+	.aboutme .inscription {
+/*		font-size: vh;*/
+	}
+}
 
 @media(max-width: 1600px) {
 	.photopage .row div {	border-width: 8px; }	
@@ -124,8 +127,13 @@
 
 @media(max-width: 1150px) {
 	.photopage .row div { border-width: 6px; }
-	.aboutme .inscription p { font-size: 20px; }
+}
 
+@media(max-width: 1920px) and (orientation: landscape) {
+	.aboutme .inscription {
+		font-size: 1.75vw;
+		line-height: 2.5vw;
+	}
 }
 
 @media(max-width: 950px) and (orientation: portrait) { 
@@ -151,6 +159,7 @@
     margin-left: 0;
     margin-right: 0;
 	}
+	
 }
 
 @media(max-width: 800px) {
@@ -163,9 +172,17 @@
 	.aboutme .inscription p { font-size: 4vw; }
 }
 
+@media(max-width: 670px) and (orientation: landscape) {
+	.aboutme .inscription {
+		font-size: 1.65vw;
+		line-height: 2.4vw;
+	}
+}
+
 @media(max-width: 550px) and (orientation: landscape) {
 	.aboutme .inscription p { 
-		font-size: 1.8vw;
+		font-size: 1.6vw;
+		line-height: 2.3vw;
 		padding: 0 10px;
 	}
 }
