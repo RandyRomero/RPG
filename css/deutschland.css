@@ -114,7 +114,9 @@
 /************************************ MEDIA ***********************************/
 /*********************************** QUERIES **********************************/
 
-@media(max-width: 1600px) {
+
+
+@media(min-width: 1151px) {
 	.photopage .row div { border-width: 8px; }	/* decrease border of images and inscritions for smaller viewports */
 }
 
