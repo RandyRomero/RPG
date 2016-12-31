@@ -114,13 +114,6 @@
 /************************************ MEDIA ***********************************/
 /*********************************** QUERIES **********************************/
 
-
-@media(max-height: 1300px) and (orientation: portrait) {
-	.aboutme .inscription {
-/*		font-size: vh;*/
-	}
-}
-
 @media(max-width: 1600px) {
 	.photopage .row div { border-width: 8px; }	/* decrease border of images and inscritions for smaller viewports */
 }
