@@ -115,7 +115,7 @@
 
 @media(orientation: landscape) {
 	.aboutme .inscription {
-		max-width: 44%;
+		max-width: 640px;
 	} 
 }
 
@@ -154,10 +154,9 @@
 	}
 	
     .photopage .row:nth-of-type(even) div:first-of-type, .photopage .row:nth-of-type(even) div:nth-of-type(2) {
-    margin-left: 0;
-    margin-right: 0;
-	}
-	
+		margin-left: 0;
+		margin-right: 0;
+	}	
 }
 
 @media(max-width: 800px) {
@@ -191,7 +190,7 @@
 		line-height: 2.2vw;
 	}
     
-    .aboutme inscription p {
+    .aboutme .inscription p {
         padding: 0 5px;
     }
 }
