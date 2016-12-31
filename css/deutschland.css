@@ -160,15 +160,6 @@
 	
 }
 
-/*
-@media(max-width: 1024px) and (orientation: portrait) {
-	.inscription {
-		font-size: 4vw;
-		line-height: 5.8vw;
-	}
-}
-*/
-
 @media(max-width: 800px) {
 	.aboutme .row {
 		width: 85%;
