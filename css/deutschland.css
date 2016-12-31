@@ -182,9 +182,12 @@
 @media(max-width: 550px) and (orientation: landscape) {
 	.aboutme .inscription { /* still adjust vw elements + decrease padding between text and its container */
 		font-size: 1.6vw;
-		line-height: 2.3vw;
-		padding: 0 10px;
+		line-height: 2.2vw;
 	}
+    
+    .aboutme inscription p {
+        padding: 0 5px;
+    }
 }
     
 @media(max-width: 415px) and (orientation: portrait) {
