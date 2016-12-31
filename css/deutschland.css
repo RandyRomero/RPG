@@ -187,9 +187,9 @@
 	}
 }
     
-@media(max-width: 412px) and (orientation: portrait) {
+@media(max-width: 415px) and (orientation: portrait) {
     .aboutme .inscription {
-        line-height: 5vw;
+        line-height: 5.8vw;
     }    
 }
 
