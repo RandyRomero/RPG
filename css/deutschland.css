@@ -103,10 +103,10 @@
 	color: white;
 	font-family: "Oswald", sans-serif;
 	height: auto;
-	max-width: 640px;
+	max-width: 640px; 
 }
 
-.inscription p {
+.inscription p { /* for text not to be too near to borders of container */
 	padding: 0 20px;
 }
 
@@ -122,15 +122,15 @@
 }
 
 @media(max-width: 1600px) {
-	.photopage .row div {	border-width: 8px; }	
+	.photopage .row div { border-width: 8px; }	/* decrease border of images and inscritions for smaller viewports */
 }
 
 @media(max-width: 1150px) {
-	.photopage .row div { border-width: 6px; }
+	.photopage .row div { border-width: 6px; } /* decrease border of images and inscritions for smaller viewports */
 }
 
 @media(max-width: 1920px) and (orientation: landscape) {
-	.aboutme .inscription {
+	.aboutme .inscription { /* adjust because automatically it's scales not  like you want it to be scaled */
 		font-size: 1.75vw;
 		line-height: 2.5vw;
 	}
@@ -138,7 +138,7 @@
 
 @media(max-width: 950px) and (orientation: portrait) { 
 	/* pictures in one column only for portrait
-		because it can't look fine at lnadscape */
+		because it can't look fine at landscape */
 	.photopage .row {
 		flex-direction: column;
 		max-width: 90%; /* pictures better fit in on small viewports */
@@ -146,7 +146,7 @@
 	}
 	
 	.photopage .row:nth-of-type(even) {
-		/* make the same width with three_img row */
+		/* make the same width with three_img row as two_img row */
 		max-width: 90%;
 	}
 	
@@ -169,18 +169,18 @@
 }
 
 @media(max-width: 736px) and (orientation: portrait) {
-	.aboutme .inscription p { font-size: 4vw; }
+	.aboutme .inscription p { font-size: 4vw; } /* another vw ratio because in portrait width of viewport is quite more narrow */
 }
 
 @media(max-width: 670px) and (orientation: landscape) {
-	.aboutme .inscription {
+	.aboutme .inscription { /* despite vw is autoscalable property, you still need to adjust the ratio for different screens or font will compel div to get taller and taller or */
 		font-size: 1.65vw;
 		line-height: 2.4vw;
 	}
 }
 
 @media(max-width: 550px) and (orientation: landscape) {
-	.aboutme .inscription p { 
+	.aboutme .inscription p { /* still adjust vw elements + decrease padding between text and its container */
 		font-size: 1.6vw;
 		line-height: 2.3vw;
 		padding: 0 10px;
