@@ -323,3 +323,16 @@ and fonts for small viewports, changing height of hero and quotations divs *****
 @media(max-width: 320px) { /* to set min width of page */
 	.quotation .inner p { font-size: 14.4px; }
 }
+
+/********* HERO WITH DIFFERENT SIZES FOR DIFFERENT RESOLUTIONS *******/
+
+ /* @media(max-height: 480px) and (-webkit-min-device-pixel-rario: 2), (max-height: 480px) and (min-resolution: 192dpi) {
+	.hero_image:first-child {
+		background-image: url('../image/heros/ln-new-logo-1920w.jpg');
+	}
+	
+	.hero_image:nth-child(3) {
+		background-image: url('../image/heros/FH-1080h.jpg')
+	}
+} */
+/*.hero_image:first-child {background-image: url('../image/heros/ln-new-logo.jpg');}*/
