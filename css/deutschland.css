@@ -135,8 +135,9 @@
 }
 
 @media(min-width: 1921px) and (orientation: landscape) {
+	/* for 1921+: because with vw it sizes become too big */
 	.aboutme .inscription {
-		font-size: 34px;
+		font-size: 34px; 
 		line-height: 48px;
 	}
 }
@@ -172,6 +173,13 @@
 	}
 }
 
+@media(min-width: 1025px) and (orientation: portrait) {
+	.aboutme .inscription {
+		/* fixed size for some rare cases in portrait mode with big width */
+		font-size: 40px;
+		line-height: 60px;
+	}
+}
 
 @media(max-width: 1024px) and (orientation: portrait) {
     .aboutme .inscription { /* for portrait for iPad */
