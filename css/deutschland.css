@@ -128,9 +128,16 @@
 }
 
 @media(max-width: 1920px) and (orientation: landscape) {
-	.aboutme .inscription { /* adjust because automatically it's scales not  like you want it to be scaled */
+	.aboutme .inscription { /* adjust because automatically it scales not  like you want it to be scaled */
 		font-size: 1.75vw;
 		line-height: 2.5vw;
+	}	
+}
+
+@media(min-width: 1921px) and (orientation: landscape) {
+	.aboutme .inscription {
+		font-size: 34px;
+		line-height: 48px;
 	}
 }
 
