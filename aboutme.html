@@ -43,7 +43,7 @@
 					<p>Age: 26</p>
 					<p>Profession: hi-tech reviewer</p>
 					<p>Thank you for visiting Randy's Photo Gallery. It is a tiny web site with some nice photos that I've been taken
-					for the past several years. I created 'RPG' by myself with pure html/css. All photos here belong to me and you may contact me if you would like to get one in a higher resolution.</p>
+					for the past several years. I created 'RPG' by myself almost with pure html/css. All photos here belong to me and you may contact me if you would like to get one in a higher resolution.</p>
 				</div>
 			</div>
 			
@@ -66,7 +66,13 @@
 		</div>
 	</footer>
 	<script>
+        /* to update year in footer */
         document.querySelector('footer p').innerHTML = ('&copy; 2016&#8211;' + new Date().getFullYear());
+        /* to update my age on page */
+        var today = new Date();
+        var my_birth_day = new Date(1990, 11, 29);
+        var age = new Date(today - my_birth_day).getFullYear() - 1970;
+        document.querySelector('.inscription p:nth-of-type(2').textContent = ('Age: ' + age);
 	</script>
 </body>
 </html>
